@@ -4,7 +4,7 @@ import { useRef, useEffect, useState } from "react";
 import { useInView, useReducedMotion } from "framer-motion";
 
 const stats = [
-  { value: 10, suffix: "+", label: "Years Experience", color: "text-rust" },
+  { value: 20, suffix: "+", label: "Years Experience", color: "text-rust" },
   { value: 500, suffix: "+", label: "Jobs Completed", color: "text-warm" },
   { value: 100, suffix: "%", label: "Satisfaction Guaranteed", color: "text-cream" },
 ];

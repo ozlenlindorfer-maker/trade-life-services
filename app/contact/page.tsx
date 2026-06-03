@@ -39,7 +39,7 @@ const steps = [
 
 const trust = [
   "Local to Knoxville, TN",
-  "10+ years of experience",
+  "20+ years of experience",
   "Responds within 24 hours",
   "No job too small",
 ];
