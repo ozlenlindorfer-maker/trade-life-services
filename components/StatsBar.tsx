@@ -60,7 +60,6 @@ export default function StatsBar() {
       className="py-14 relative overflow-hidden border-t border-b border-rust/25"
       style={{ background: "#0a0806" }}
     >
-      {/* Texture overlay */}
       <div
         className="absolute inset-0 opacity-[0.04]"
         style={{
@@ -69,18 +68,16 @@ export default function StatsBar() {
           backgroundSize: "10px 10px",
         }}
       />
-
-      {/* Rust glow top */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-px bg-rust opacity-60" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-3 divide-x divide-rust/15 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-rust/15 text-center">
           {stats.map((stat) => (
-            <div key={stat.label} className="px-4 sm:px-8">
-              <div className={`font-heading text-5xl sm:text-7xl leading-none mb-2 ${stat.color}`}>
+            <div key={stat.label} className="py-6 sm:py-0 sm:px-8 first:pt-0 last:pb-0 sm:first:pt-0 sm:last:pb-0">
+              <div className={`font-heading text-6xl sm:text-5xl lg:text-7xl leading-none mb-2 ${stat.color}`}>
                 <CountUp target={stat.value} suffix={stat.suffix} active={isInView} />
               </div>
-              <div className="text-dim text-[10px] sm:text-xs font-bold tracking-[0.2em] uppercase">
+              <div className="text-dim text-xs sm:text-[10px] lg:text-xs font-bold tracking-[0.2em] uppercase">
                 {stat.label}
               </div>
             </div>

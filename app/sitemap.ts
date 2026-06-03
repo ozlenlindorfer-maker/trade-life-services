@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://tradelifeservices.com";
+  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://trade-life-services.netlify.app";
   return [
     {
       url: base,
