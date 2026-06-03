@@ -17,6 +17,7 @@ const inter = Inter({
 });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tradelifeservices.com";
+const ogImage = "https://images.unsplash.com/photo-1674649207083-281c2517ab49?w=1200&q=80";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -55,7 +56,7 @@ export const metadata: Metadata = {
       "No job too small, no problem too big. Knoxville's trusted handyman — repairs, plumbing, electrical, carpentry, and more. Call (865) 247-1871.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: ogImage,
         width: 1200,
         height: 630,
         alt: "Trade Life Services — Handyman in Knoxville, TN",
@@ -67,7 +68,7 @@ export const metadata: Metadata = {
     title: "Trade Life Services | Handyman in Knoxville, TN",
     description:
       "No job too small, no problem too big. Knoxville's trusted handyman. Call (865) 247-1871.",
-    images: ["/og-image.jpg"],
+    images: [ogImage],
   },
   alternates: {
     canonical: siteUrl,
