@@ -1,3 +1,4 @@
+import Link from "next/link";
 import FadeUp from "./FadeUp";
 
 const services = [
@@ -10,6 +11,7 @@ const services = [
     ),
     name: "General Repairs & Maintenance",
     desc: "If it's broken, David fixes it. Leaks, holes, squeaks — no problem.",
+    href: "/services/general-repairs",
   },
   {
     icon: (
@@ -19,6 +21,7 @@ const services = [
     ),
     name: "Plumbing",
     desc: "Dripping faucets, running toilets, blocked drains — sorted fast.",
+    href: "/services/plumbing",
   },
   {
     icon: (
@@ -28,6 +31,7 @@ const services = [
     ),
     name: "Electrical",
     desc: "Outlets, switches, fixtures, and more. Safe, code-compliant work.",
+    href: "/services/electrical",
   },
   {
     icon: (
@@ -37,6 +41,7 @@ const services = [
     ),
     name: "Carpentry & Woodwork",
     desc: "Shelving, doors, trim, decks — built right and built to last.",
+    href: "/services/carpentry",
   },
   {
     icon: (
@@ -46,6 +51,7 @@ const services = [
     ),
     name: "Painting & Decorating",
     desc: "Clean lines, smooth finishes. Interior and exterior painting done properly.",
+    href: "/services/painting",
   },
   {
     icon: (
@@ -57,6 +63,7 @@ const services = [
     ),
     name: "And More",
     desc: "Knoxville homeowners and businesses — if you need it done, just ask.",
+    href: "/contact",
   },
 ];
 
@@ -94,8 +101,9 @@ export default function ServicesSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {services.map((service, i) => (
             <FadeUp key={service.name} delay={i * 0.07}>
-              <div
-                className="relative rounded-lg p-6 overflow-hidden group hover:-translate-y-1 transition-all duration-200 cursor-default"
+              <Link
+                href={service.href}
+                className="relative rounded-lg p-6 overflow-hidden group hover:-translate-y-1 transition-all duration-200 block"
                 style={{
                   background: "#1c1814",
                   borderTop: "1px solid #3a3028",
@@ -125,7 +133,7 @@ export default function ServicesSection() {
 
                 {/* Bottom accent on hover */}
                 <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-rust scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
-              </div>
+              </Link>
             </FadeUp>
           ))}
         </div>

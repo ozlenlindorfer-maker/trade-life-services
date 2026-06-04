@@ -124,7 +124,7 @@ export default function Hero() {
             className="text-lg sm:text-xl text-dim max-w-xl mb-12 leading-relaxed"
             initial={from} animate={to} transition={t(0.48)}
           >
-            Knoxville&rsquo;s go-to handyman — David handles everything from
+            Your go-to handyman — David handles everything from
             quick repairs to big projects. One call, one guy, done right.
           </motion.p>
 
