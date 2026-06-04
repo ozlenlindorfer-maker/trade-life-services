@@ -7,7 +7,7 @@ export default function HomeCTA() {
       className="py-28 relative overflow-hidden"
       style={{
         background: `
-          radial-gradient(ellipse at 50% 0%, rgba(194,84,10,0.3) 0%, transparent 60%),
+          radial-gradient(ellipse at 50% 0%, rgba(46,109,164,0.3) 0%, transparent 60%),
           linear-gradient(180deg, #1a0c04 0%, #141210 60%, #0e0c0a 100%)
         `,
       }}

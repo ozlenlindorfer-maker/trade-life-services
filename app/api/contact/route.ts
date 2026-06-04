@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
       subject: `New Quote Request — ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background: #f9f9f9; padding: 24px; border-radius: 8px;">
-          <div style="background: #c2540a; padding: 16px 24px; border-radius: 6px 6px 0 0;">
+          <div style="background: #2e6da4; padding: 16px 24px; border-radius: 6px 6px 0 0;">
             <h2 style="color: #fff; margin: 0; font-size: 20px;">New Quote Request — Trade Life Services</h2>
           </div>
           <div style="background: #fff; padding: 24px; border-radius: 0 0 6px 6px; border: 1px solid #e5e7eb;">
@@ -47,13 +47,13 @@ export async function POST(request: NextRequest) {
               <tr style="border-top: 1px solid #f3f4f6;">
                 <td style="padding: 10px 0; color: #6b7280; font-weight: 600; vertical-align: top;">Phone</td>
                 <td style="padding: 10px 0; color: #111827;">
-                  <a href="tel:${escapeHtml(phone)}" style="color: #c2540a;">${escapeHtml(phone)}</a>
+                  <a href="tel:${escapeHtml(phone)}" style="color: #2e6da4;">${escapeHtml(phone)}</a>
                 </td>
               </tr>
               <tr style="border-top: 1px solid #f3f4f6;">
                 <td style="padding: 10px 0; color: #6b7280; font-weight: 600; vertical-align: top;">Email</td>
                 <td style="padding: 10px 0; color: #111827;">
-                  <a href="mailto:${escapeHtml(email)}" style="color: #c2540a;">${escapeHtml(email)}</a>
+                  <a href="mailto:${escapeHtml(email)}" style="color: #2e6da4;">${escapeHtml(email)}</a>
                 </td>
               </tr>
               <tr style="border-top: 1px solid #f3f4f6;">

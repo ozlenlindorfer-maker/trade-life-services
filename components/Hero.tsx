@@ -17,7 +17,7 @@ export default function Hero() {
       className="relative min-h-screen flex items-center overflow-hidden"
       style={{
         background: `
-          radial-gradient(ellipse at 0% 65%, rgba(194,84,10,0.22) 0%, transparent 55%),
+          radial-gradient(ellipse at 0% 65%, rgba(46,109,164,0.22) 0%, transparent 55%),
           radial-gradient(ellipse at 85% 10%, rgba(212,148,58,0.08) 0%, transparent 45%),
           linear-gradient(160deg, #060402 0%, #141210 55%, #1c1410 100%)
         `,
@@ -71,8 +71,8 @@ export default function Hero() {
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none" aria-hidden>
           <div className="relative w-48 h-48">
             <svg viewBox="0 0 192 192" className="absolute inset-0 w-full h-full">
-              <circle cx="96" cy="96" r="88" fill="none" stroke="#c2540a" strokeWidth="1.5" strokeDasharray="5 4" opacity="0.5" />
-              <circle cx="96" cy="96" r="72" fill="none" stroke="#c2540a" strokeWidth="1" opacity="0.3" />
+              <circle cx="96" cy="96" r="88" fill="none" stroke="#2e6da4" strokeWidth="1.5" strokeDasharray="5 4" opacity="0.5" />
+              <circle cx="96" cy="96" r="72" fill="none" stroke="#2e6da4" strokeWidth="1" opacity="0.3" />
             </svg>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center gap-1">
               <span className="font-heading text-warm/70 text-[10px] tracking-[0.3em] uppercase">Knoxville, TN</span>
@@ -164,7 +164,7 @@ export default function Hero() {
       {/* Angled cut into next section */}
       <div className="absolute bottom-0 left-0 right-0 overflow-hidden leading-none">
         <svg viewBox="0 0 1440 56" preserveAspectRatio="none" className="w-full h-14">
-          <polygon points="0,56 1440,0 1440,56" fill="#c2540a" />
+          <polygon points="0,56 1440,0 1440,56" fill="#2e6da4" />
         </svg>
       </div>
     </section>

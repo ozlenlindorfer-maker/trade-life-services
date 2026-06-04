@@ -116,7 +116,7 @@ export default function ServicesSection() {
                   borderTop: "1px solid #3a3028",
                   borderRight: "1px solid #3a3028",
                   borderBottom: "1px solid #3a3028",
-                  borderLeft: "3px solid #c2540a",
+                  borderLeft: "3px solid #2e6da4",
                 }}
               >
                 {/* Photo thumbnail */}

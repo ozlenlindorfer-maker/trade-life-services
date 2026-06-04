@@ -52,7 +52,7 @@ export default function ContactPage() {
         className="py-24 relative overflow-hidden border-b border-rust/20"
         style={{
           background: `
-            radial-gradient(ellipse at 0% 100%, rgba(194,84,10,0.22) 0%, transparent 55%),
+            radial-gradient(ellipse at 0% 100%, rgba(46,109,164,0.22) 0%, transparent 55%),
             linear-gradient(180deg, #0a0806 0%, #141210 100%)
           `,
         }}
@@ -125,7 +125,7 @@ export default function ContactPage() {
             className="px-6 sm:px-10 py-12 lg:py-16 border-b lg:border-b-0 lg:border-r border-dark-edge"
             style={{
               background:
-                "linear-gradient(180deg, rgba(194,84,10,0.07) 0%, transparent 60%), #141210",
+                "linear-gradient(180deg, rgba(46,109,164,0.07) 0%, transparent 60%), #141210",
             }}
           >
             <div className="lg:sticky lg:top-24">
@@ -193,7 +193,7 @@ export default function ContactPage() {
         className="py-20 relative overflow-hidden border-t border-rust/20 text-center"
         style={{
           background: `
-            radial-gradient(ellipse at 50% 0%, rgba(194,84,10,0.22) 0%, transparent 65%),
+            radial-gradient(ellipse at 50% 0%, rgba(46,109,164,0.22) 0%, transparent 65%),
             #0a0806
           `,
         }}

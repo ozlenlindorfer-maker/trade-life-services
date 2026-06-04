@@ -33,7 +33,7 @@ export default function PlumbingPage() {
         className="py-28 relative overflow-hidden border-b border-rust/20"
         style={{
           background: `
-            radial-gradient(ellipse at 0% 100%, rgba(194,84,10,0.2) 0%, transparent 55%),
+            radial-gradient(ellipse at 0% 100%, rgba(46,109,164,0.2) 0%, transparent 55%),
             linear-gradient(180deg, #0a0806 0%, #141210 100%)
           `,
         }}
@@ -74,7 +74,7 @@ export default function PlumbingPage() {
               <div
                 key={task.title}
                 className="relative rounded-lg p-6 overflow-hidden"
-                style={{ background: "#1c1814", borderTop: "1px solid #3a3028", borderRight: "1px solid #3a3028", borderBottom: "1px solid #3a3028", borderLeft: "3px solid #c2540a" }}
+                style={{ background: "#1c1814", borderTop: "1px solid #3a3028", borderRight: "1px solid #3a3028", borderBottom: "1px solid #3a3028", borderLeft: "3px solid #2e6da4" }}
               >
                 <span className="absolute top-2 right-4 font-heading text-7xl leading-none text-white select-none pointer-events-none" style={{ opacity: 0.04 }} aria-hidden>{String(i + 1).padStart(2, "0")}</span>
                 <h3 className="font-heading text-2xl text-cream tracking-wide mb-2">{task.title}</h3>
@@ -86,7 +86,7 @@ export default function PlumbingPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 border-t border-rust/20 text-center" style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(194,84,10,0.2) 0%, transparent 65%), #0a0806" }}>
+      <section className="py-20 border-t border-rust/20 text-center" style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(46,109,164,0.2) 0%, transparent 65%), #0a0806" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">Got a Leak?</span>
           <h2 className="font-heading text-cream mt-3 mb-5 leading-none" style={{ fontSize: "clamp(3rem,7vw,6rem)" }}>

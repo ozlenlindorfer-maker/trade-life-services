@@ -2,7 +2,7 @@
 @plugin "@tailwindcss/forms";
 
 @theme {
-  --color-rust: #c2540a;
+  --color-rust: #2e6da4;
   --color-warm: #d4943a;
   --color-cream: #f5f0e8;
   --color-dim: #a89880;
