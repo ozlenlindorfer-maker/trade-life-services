@@ -103,34 +103,31 @@ export default function Hero() {
           {/* Headline */}
           <h1 className="font-heading leading-none tracking-wide mb-8">
             <motion.span
-              className="flex items-baseline gap-4 flex-wrap mb-1"
+              className="block text-dim mb-1"
+              style={{ fontSize: "clamp(2rem,4.5vw,4rem)" }}
               initial={from} animate={to} transition={t(0.12)}
             >
-              <span className="text-cream" style={{ fontSize: "clamp(3rem,7vw,6.5rem)" }}>
-                No Job
-              </span>
-              <span
-                className="text-rust"
-                style={{ fontSize: "clamp(0.8rem,1.5vw,1.25rem)", letterSpacing: "0.06em" }}
-              >
-                too small.
-              </span>
+              Hey, I&apos;m
             </motion.span>
 
             <motion.span
               className="block text-cream"
-              style={{ fontSize: "clamp(3rem,7vw,6.5rem)" }}
+              style={{ fontSize: "clamp(5.5rem,14vw,13rem)", lineHeight: 0.9 }}
               initial={from} animate={to} transition={t(0.22)}
             >
-              No Problem
+              DAVID.
             </motion.span>
 
             <motion.span
-              className="block text-warm"
-              style={{ fontSize: "clamp(5.5rem,14vw,13rem)", lineHeight: 0.9 }}
+              className="flex items-baseline gap-3 flex-wrap mt-4"
               initial={from} animate={to} transition={t(0.34)}
             >
-              TOO BIG.
+              <span className="text-rust" style={{ fontSize: "clamp(2rem,4.5vw,4rem)" }}>
+                20+ years
+              </span>
+              <span className="text-warm" style={{ fontSize: "clamp(1.1rem,2vw,1.75rem)", letterSpacing: "0.04em" }}>
+                of handyman work.
+              </span>
             </motion.span>
           </h1>
 
@@ -139,8 +136,8 @@ export default function Hero() {
             className="text-lg sm:text-xl text-dim max-w-xl mb-12 leading-relaxed"
             initial={from} animate={to} transition={t(0.48)}
           >
-            Your go-to handyman — David handles everything from
-            quick repairs to big projects. One call, one guy, done right.
+            Have a look around the site to see what I do. If you&apos;ve got
+            questions or need something sorted, just reach out — I&apos;m easy to get hold of.
           </motion.p>
 
           {/* CTAs */}
