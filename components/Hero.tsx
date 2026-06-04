@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 
 export default function Hero() {
@@ -50,23 +51,37 @@ export default function Hero() {
         style={{ left: "7%", width: "2px" }}
       />
 
-      {/* Stamp badge — desktop only */}
+      {/* Photo panel with stamp badge overlay — desktop only */}
       <div
-        className="absolute top-1/2 -translate-y-1/2 right-16 xl:right-24 hidden lg:flex items-center justify-center pointer-events-none select-none"
-        aria-hidden
+        className="absolute top-1/2 -translate-y-1/2 right-10 xl:right-16 hidden lg:block w-72 h-[420px] overflow-hidden"
+        style={{ clipPath: "polygon(0 0, 100% 4%, 100% 96%, 0 100%)" }}
       >
-        <div className="relative w-48 h-48">
-          <svg viewBox="0 0 192 192" className="absolute inset-0 w-full h-full">
-            <circle cx="96" cy="96" r="88" fill="none" stroke="#c2540a" strokeWidth="1.5" strokeDasharray="5 4" opacity="0.3" />
-            <circle cx="96" cy="96" r="72" fill="none" stroke="#c2540a" strokeWidth="1" opacity="0.15" />
-          </svg>
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center gap-1">
-            <span className="font-heading text-warm/50 text-[10px] tracking-[0.3em] uppercase">Knoxville, TN</span>
-            <div className="w-10 h-px bg-rust/35 my-0.5" />
-            <span className="font-heading text-cream/75 text-2xl leading-none tracking-widest">TRADE LIFE</span>
-            <span className="font-heading text-rust text-2xl leading-none tracking-widest">SERVICES</span>
-            <div className="w-10 h-px bg-rust/35 my-0.5" />
-            <span className="font-heading text-warm/50 text-[10px] tracking-[0.3em] uppercase">Trusted Handyman</span>
+        <Image
+          src="https://images.unsplash.com/photo-1674649207083-281c2517ab49?w=900&q=80"
+          alt="Tradesmen at work"
+          fill
+          className="object-cover opacity-40"
+          sizes="288px"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#141210] via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#141210]/60 via-transparent to-transparent" />
+
+        {/* Stamp badge overlaid on photo */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none" aria-hidden>
+          <div className="relative w-48 h-48">
+            <svg viewBox="0 0 192 192" className="absolute inset-0 w-full h-full">
+              <circle cx="96" cy="96" r="88" fill="none" stroke="#c2540a" strokeWidth="1.5" strokeDasharray="5 4" opacity="0.5" />
+              <circle cx="96" cy="96" r="72" fill="none" stroke="#c2540a" strokeWidth="1" opacity="0.3" />
+            </svg>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center gap-1">
+              <span className="font-heading text-warm/70 text-[10px] tracking-[0.3em] uppercase">Knoxville, TN</span>
+              <div className="w-10 h-px bg-rust/50 my-0.5" />
+              <span className="font-heading text-cream text-2xl leading-none tracking-widest">TRADE LIFE</span>
+              <span className="font-heading text-rust text-2xl leading-none tracking-widest">SERVICES</span>
+              <div className="w-10 h-px bg-rust/50 my-0.5" />
+              <span className="font-heading text-warm/70 text-[10px] tracking-[0.3em] uppercase">Trusted Handyman</span>
+            </div>
           </div>
         </div>
       </div>

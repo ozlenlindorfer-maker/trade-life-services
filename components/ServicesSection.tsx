@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import FadeUp from "./FadeUp";
 
 const services = [
@@ -12,6 +13,7 @@ const services = [
     name: "General Repairs & Maintenance",
     desc: "If it's broken, David fixes it. Leaks, holes, squeaks — no problem.",
     href: "/services/general-repairs",
+    photo: "https://images.unsplash.com/photo-1574359411659-15573a27fd0c?w=600&q=75",
   },
   {
     icon: (
@@ -22,6 +24,7 @@ const services = [
     name: "Plumbing",
     desc: "Dripping faucets, running toilets, blocked drains — sorted fast.",
     href: "/services/plumbing",
+    photo: "https://images.unsplash.com/photo-1542013936693-884638332954?w=600&q=75",
   },
   {
     icon: (
@@ -32,6 +35,7 @@ const services = [
     name: "Electrical",
     desc: "Outlets, switches, fixtures, and more. Safe, code-compliant work.",
     href: "/services/electrical",
+    photo: "https://images.unsplash.com/photo-1635335874521-7987db781153?w=600&q=75",
   },
   {
     icon: (
@@ -42,6 +46,7 @@ const services = [
     name: "Carpentry & Woodwork",
     desc: "Shelving, doors, trim, decks — built right and built to last.",
     href: "/services/carpentry",
+    photo: "https://images.unsplash.com/photo-1659930087003-2d64e33181f7?w=600&q=75",
   },
   {
     icon: (
@@ -52,6 +57,7 @@ const services = [
     name: "Painting & Decorating",
     desc: "Clean lines, smooth finishes. Interior and exterior painting done properly.",
     href: "/services/painting",
+    photo: "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?w=600&q=75",
   },
   {
     icon: (
@@ -64,6 +70,7 @@ const services = [
     name: "And More",
     desc: "Knoxville homeowners and businesses — if you need it done, just ask.",
     href: "/contact",
+    photo: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=600&q=75",
   },
 ];
 
@@ -103,7 +110,7 @@ export default function ServicesSection() {
             <FadeUp key={service.name} delay={i * 0.07}>
               <Link
                 href={service.href}
-                className="relative rounded-lg p-6 overflow-hidden group hover:-translate-y-1 transition-all duration-200 block"
+                className="relative rounded-lg overflow-hidden group hover:-translate-y-1 transition-all duration-200 block"
                 style={{
                   background: "#1c1814",
                   borderTop: "1px solid #3a3028",
@@ -112,24 +119,38 @@ export default function ServicesSection() {
                   borderLeft: "3px solid #c2540a",
                 }}
               >
-                {/* Card number watermark */}
-                <span
-                  className="absolute top-2 right-4 font-heading text-7xl leading-none text-white select-none pointer-events-none"
-                  style={{ opacity: 0.04 }}
-                  aria-hidden
-                >
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-
-                {/* Icon */}
-                <div className="w-11 h-11 flex items-center justify-center rounded bg-rust/10 border border-rust/30 text-rust mb-5 group-hover:bg-rust/20 transition-colors">
-                  {service.icon}
+                {/* Photo thumbnail */}
+                <div className="relative h-28 overflow-hidden">
+                  <Image
+                    src={service.photo}
+                    alt={service.name}
+                    fill
+                    className="object-cover opacity-50 group-hover:opacity-60 transition-opacity duration-300"
+                    sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#1c1814]" />
                 </div>
 
-                <h3 className="font-heading text-2xl text-cream tracking-wide mb-2">
-                  {service.name}
-                </h3>
-                <p className="text-dim text-sm leading-relaxed">{service.desc}</p>
+                <div className="p-6 pt-4">
+                  {/* Card number watermark */}
+                  <span
+                    className="absolute top-2 right-4 font-heading text-7xl leading-none text-white select-none pointer-events-none"
+                    style={{ opacity: 0.04 }}
+                    aria-hidden
+                  >
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+
+                  {/* Icon */}
+                  <div className="w-11 h-11 flex items-center justify-center rounded bg-rust/10 border border-rust/30 text-rust mb-5 group-hover:bg-rust/20 transition-colors">
+                    {service.icon}
+                  </div>
+
+                  <h3 className="font-heading text-2xl text-cream tracking-wide mb-2">
+                    {service.name}
+                  </h3>
+                  <p className="text-dim text-sm leading-relaxed">{service.desc}</p>
+                </div>
 
                 {/* Bottom accent on hover */}
                 <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-rust scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />

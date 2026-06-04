@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tradelifeservices.com";
@@ -38,7 +39,7 @@ const steps = [
 
 const trust = [
   "Local to Knoxville, TN",
-  "10+ years of experience",
+  "20+ years of experience",
   "Responds within 24 hours",
   "No job too small",
 ];
@@ -137,7 +138,7 @@ export default function ContactPage() {
                 Done Right.
               </h2>
 
-              <ul className="space-y-4 mb-10">
+              <ul className="space-y-4 mb-8">
                 {trust.map((item) => (
                   <li key={item} className="flex items-center gap-3 text-dim text-sm">
                     <svg
@@ -154,6 +155,17 @@ export default function ContactPage() {
                 ))}
               </ul>
 
+              {/* Worker photo */}
+              <div className="relative h-40 rounded overflow-hidden mb-8">
+                <Image
+                  src="https://images.unsplash.com/photo-1505798577917-a65157d3320a?w=700&q=80"
+                  alt="Trade professional at work"
+                  fill
+                  className="object-cover opacity-60"
+                  sizes="340px"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#141210]/80 to-transparent" />
+              </div>
               <div className="border-t border-dark-edge pt-8">
                 <p className="text-dim text-xs mb-2 tracking-wide">Rather just call?</p>
                 <a
