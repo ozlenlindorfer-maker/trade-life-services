@@ -27,6 +27,11 @@ export default function JsonLd() {
       { "@type": "City", name: "Farragut, TN" },
       { "@type": "City", name: "Maryville, TN" },
       { "@type": "City", name: "Oak Ridge, TN" },
+      { "@type": "City", name: "Powell, TN" },
+      { "@type": "City", name: "Hardin Valley, TN" },
+      { "@type": "City", name: "Alcoa, TN" },
+      { "@type": "AdministrativeArea", name: "Blount County, TN" },
+      { "@type": "AdministrativeArea", name: "Anderson County, TN" },
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",

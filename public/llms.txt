@@ -5,7 +5,7 @@ Trade Life Services is a handyman and home repair business based in Knoxville, T
 
 ## Contact
 - Phone: (865) 247-1871
-- Service Area: Knoxville, TN and surrounding areas including Knox County, Farragut, Maryville, and Oak Ridge
+- Service Area: Knoxville, TN and surrounding areas including Knox County, Farragut, Maryville, Oak Ridge, Powell, Hardin Valley, and Alcoa
 - Website: https://trade-life-services.netlify.app
 - Contact Form: https://trade-life-services.netlify.app/contact
 
@@ -33,5 +33,13 @@ Trade Life Services is a handyman and home repair business based in Knoxville, T
 3. He calls back within 24 hours to discuss the job
 4. Most jobs are scheduled within days
 
+## Service Area Pages
+- Farragut, TN: https://trade-life-services.netlify.app/service-areas/farragut
+- Maryville, TN: https://trade-life-services.netlify.app/service-areas/maryville
+- Oak Ridge, TN: https://trade-life-services.netlify.app/service-areas/oak-ridge
+- Powell, TN: https://trade-life-services.netlify.app/service-areas/powell
+- Hardin Valley, TN: https://trade-life-services.netlify.app/service-areas/hardin-valley
+- Alcoa, TN: https://trade-life-services.netlify.app/service-areas/alcoa
+
 ## Business Type
-Local handyman / home repair service. Serves residential homeowners and businesses in Knoxville, TN and the greater Knox County area.
+Local handyman / home repair service. Serves residential homeowners and businesses in Knoxville, TN and the greater Knox County and Blount County area.

@@ -1,16 +1,20 @@
 "use client";
 
-import Link from "next/link";
-import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
+import HeroContactForm from "./HeroContactForm";
+
+const trustPoints = [
+  "20+ years experience",
+  "500+ jobs completed",
+  "No job too small",
+  "Responds within 24 hours",
+];
 
 export default function Hero() {
   const reduced = useReducedMotion();
-
-  const from = { opacity: 0, y: reduced ? 0 : 32 };
+  const from = { opacity: 0, y: reduced ? 0 : 28 };
   const to = { opacity: 1, y: 0 };
-  const ease = [0.25, 0.46, 0.45, 0.94] as const;
-  const t = (delay: number) => ({ duration: 0.55, ease, delay: reduced ? 0 : delay });
+  const t = (delay: number) => ({ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] as const, delay: reduced ? 0 : delay });
 
   return (
     <section
@@ -36,7 +40,7 @@ export default function Hero() {
       <div className="absolute inset-0 flex items-center overflow-hidden pointer-events-none select-none" aria-hidden>
         <span
           className="font-heading text-white whitespace-nowrap leading-none"
-          style={{ fontSize: "24vw", opacity: 0.022, letterSpacing: "0.03em" }}
+          style={{ fontSize: "24vw", opacity: 0.018, letterSpacing: "0.03em" }}
         >
           TRADE LIFE
         </span>
@@ -51,113 +55,108 @@ export default function Hero() {
         style={{ left: "7%", width: "2px" }}
       />
 
-      {/* Photo panel with stamp badge overlay — desktop only */}
-      <div
-        className="absolute top-1/2 -translate-y-1/2 right-10 xl:right-16 hidden lg:block w-72 h-[420px] overflow-hidden"
-        style={{ clipPath: "polygon(0 0, 100% 4%, 100% 96%, 0 100%)" }}
-      >
-        <Image
-          src="https://images.unsplash.com/photo-1674649207083-281c2517ab49?w=900&q=80"
-          alt="Tradesmen at work"
-          fill
-          className="object-cover opacity-40"
-          sizes="288px"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#141210] via-transparent to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#141210]/60 via-transparent to-transparent" />
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-24 w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_440px] gap-10 xl:gap-16 items-center">
 
-        {/* Stamp badge overlaid on photo */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none" aria-hidden>
-          <div className="relative w-48 h-48">
-            <svg viewBox="0 0 192 192" className="absolute inset-0 w-full h-full">
-              <circle cx="96" cy="96" r="88" fill="none" stroke="#2e6da4" strokeWidth="1.5" strokeDasharray="5 4" opacity="0.5" />
-              <circle cx="96" cy="96" r="72" fill="none" stroke="#2e6da4" strokeWidth="1" opacity="0.3" />
-            </svg>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center gap-1">
-              <span className="font-heading text-warm/70 text-[10px] tracking-[0.3em] uppercase">Knoxville, TN</span>
-              <div className="w-10 h-px bg-rust/50 my-0.5" />
-              <span className="font-heading text-cream text-2xl leading-none tracking-widest">TRADE LIFE</span>
-              <span className="font-heading text-rust text-2xl leading-none tracking-widest">SERVICES</span>
-              <div className="w-10 h-px bg-rust/50 my-0.5" />
-              <span className="font-heading text-warm/70 text-[10px] tracking-[0.3em] uppercase">Trusted Handyman</span>
-            </div>
+          {/* ── Left: Brand copy ── */}
+          <div>
+            {/* Eyebrow */}
+            <motion.div className="flex items-center gap-3 mb-7" initial={from} animate={to} transition={t(0)}>
+              <div className="h-px w-10 bg-rust" />
+              <span className="text-warm text-xs font-semibold tracking-[0.25em] uppercase">
+                Knoxville, TN &amp; Surrounding Areas
+              </span>
+            </motion.div>
+
+            {/* Headline */}
+            <h1 className="font-heading leading-none tracking-wide mb-8">
+              <motion.span
+                className="block text-dim mb-1"
+                style={{ fontSize: "clamp(1.8rem,3.8vw,3.2rem)" }}
+                initial={from} animate={to} transition={t(0.1)}
+              >
+                Hey, I&apos;m
+              </motion.span>
+              <motion.span
+                className="block text-cream"
+                style={{ fontSize: "clamp(5rem,13vw,11rem)", lineHeight: 0.88 }}
+                initial={from} animate={to} transition={t(0.2)}
+              >
+                DAVID.
+              </motion.span>
+              <motion.span
+                className="flex items-baseline gap-3 flex-wrap mt-4"
+                initial={from} animate={to} transition={t(0.3)}
+              >
+                <span className="text-rust" style={{ fontSize: "clamp(1.8rem,3.8vw,3.2rem)" }}>
+                  20+ years
+                </span>
+                <span className="text-warm" style={{ fontSize: "clamp(1rem,1.8vw,1.5rem)", letterSpacing: "0.04em" }}>
+                  of handyman work.
+                </span>
+              </motion.span>
+            </h1>
+
+            {/* Sub */}
+            <motion.p
+              className="text-base sm:text-lg text-dim max-w-md mb-10 leading-relaxed"
+              initial={from} animate={to} transition={t(0.42)}
+            >
+              One call — leaks fixed, things built, jobs sorted. Serving Knoxville
+              and Knox County for over two decades.
+            </motion.p>
+
+            {/* Trust list */}
+            <motion.ul className="space-y-3 mb-10" initial={from} animate={to} transition={t(0.52)}>
+              {trustPoints.map((pt) => (
+                <li key={pt} className="flex items-center gap-3 text-dim text-sm">
+                  <svg className="w-4 h-4 text-rust flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  {pt}
+                </li>
+              ))}
+            </motion.ul>
+
+            {/* Phone */}
+            <motion.div initial={from} animate={to} transition={t(0.6)}>
+              <p className="text-dim/50 text-[10px] tracking-[0.2em] uppercase mb-1">Rather just call?</p>
+              <a
+                href="tel:+18652471871"
+                className="font-heading text-cream hover:text-rust transition-colors tracking-wider cursor-pointer"
+                style={{ fontSize: "clamp(1.6rem,3vw,2.5rem)" }}
+              >
+                (865) 247&#8209;1871
+              </a>
+            </motion.div>
           </div>
-        </div>
-      </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-32 w-full">
-        <div className="max-w-4xl">
-
-          {/* Eyebrow */}
+          {/* ── Right: Quote form card ── */}
           <motion.div
-            className="flex items-center gap-3 mb-8"
-            initial={from} animate={to} transition={t(0)}
+            initial={{ opacity: 0, y: reduced ? 0 : 32 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.55, delay: reduced ? 0 : 0.25, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
-            <div className="h-px w-10 bg-rust" />
-            <span className="text-warm text-xs font-semibold tracking-[0.25em] uppercase">
-              Knoxville, TN &amp; Surrounding Areas
-            </span>
+            <div
+              className="rounded-lg overflow-hidden"
+              style={{
+                background: "rgba(28,24,20,0.92)",
+                border: "1px solid #3a3028",
+                borderTop: "3px solid #2e6da4",
+                boxShadow: "0 24px 60px rgba(0,0,0,0.5), 0 0 0 1px rgba(46,109,164,0.08)",
+              }}
+            >
+              <div className="px-6 pt-6 pb-2">
+                <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-1">Free Quote</p>
+                <p className="font-heading text-cream text-2xl tracking-wide leading-tight mb-1">Get a Free Quote</p>
+                <p className="text-dim text-xs mb-5">Tell David what you need — he&apos;ll get back to you within 24 hrs.</p>
+              </div>
+              <div className="px-6 pb-6">
+                <HeroContactForm />
+              </div>
+            </div>
           </motion.div>
 
-          {/* Headline */}
-          <h1 className="font-heading leading-none tracking-wide mb-8">
-            <motion.span
-              className="block text-dim mb-1"
-              style={{ fontSize: "clamp(2rem,4.5vw,4rem)" }}
-              initial={from} animate={to} transition={t(0.12)}
-            >
-              Hey, I&apos;m
-            </motion.span>
-
-            <motion.span
-              className="block text-cream"
-              style={{ fontSize: "clamp(5.5rem,14vw,13rem)", lineHeight: 0.9 }}
-              initial={from} animate={to} transition={t(0.22)}
-            >
-              DAVID.
-            </motion.span>
-
-            <motion.span
-              className="flex items-baseline gap-3 flex-wrap mt-4"
-              initial={from} animate={to} transition={t(0.34)}
-            >
-              <span className="text-rust" style={{ fontSize: "clamp(2rem,4.5vw,4rem)" }}>
-                20+ years
-              </span>
-              <span className="text-warm" style={{ fontSize: "clamp(1.1rem,2vw,1.75rem)", letterSpacing: "0.04em" }}>
-                of handyman work.
-              </span>
-            </motion.span>
-          </h1>
-
-          {/* Sub */}
-          <motion.p
-            className="text-lg sm:text-xl text-dim max-w-xl mb-12 leading-relaxed"
-            initial={from} animate={to} transition={t(0.48)}
-          >
-            Have a look around the site to see what I do. If you&apos;ve got
-            questions or need something sorted, just reach out — I&apos;m easy to get hold of.
-          </motion.p>
-
-          {/* CTAs */}
-          <motion.div
-            className="flex flex-col sm:flex-row gap-4"
-            initial={from} animate={to} transition={t(0.58)}
-          >
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-9 py-4 rounded transition-colors cursor-pointer"
-            >
-              Contact David
-            </Link>
-            <a
-              href="tel:+18652471871"
-              className="inline-flex items-center justify-center bg-dark-card border-2 border-warm/70 hover:border-warm hover:bg-dark-alt text-cream font-bold text-base px-9 py-4 rounded transition-colors cursor-pointer"
-            >
-              Call (865) 247&#8209;1871
-            </a>
-          </motion.div>
         </div>
       </div>
 
