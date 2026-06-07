@@ -28,7 +28,7 @@ const data: ServiceAreaData = {
     "David handles a wide range of handyman services in Alcoa: plumbing repairs, electrical fixture work, interior and exterior painting, carpentry, drywall patching, door and trim work, and general home maintenance. Every job is handled personally — David takes the call, shows up, and does the work himself. No middleman, no surprises on the invoice. If you need something fixed in Alcoa, just give him a call.",
   ctaHeading: "Alcoa — David Gets It Done.",
   ctaBody:
-    "Serving Alcoa and all of Blount County. Call or fill out the form — David will be in touch within 24 hours.",
+    "Serving Alcoa and all of Blount County. Call or fill out the form — David will be in touch as soon as possible.",
 };
 
 export default function AlcoaPage() {

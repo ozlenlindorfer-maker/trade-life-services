@@ -28,7 +28,7 @@ const data: ServiceAreaData = {
     "Whether it's a new build that needs a few things sorted out, or an older home in need of maintenance, David handles plumbing repairs, electrical work, carpentry, painting, drywall, and general home repairs throughout Hardin Valley. He brings 20+ years of experience to every job and handles each one personally — no crews, no subcontractors. Just reliable work at an honest price, scheduled quickly and done right.",
   ctaHeading: "Hardin Valley — One Call Gets It Done.",
   ctaBody:
-    "David covers Hardin Valley, Karns, and northwest Knoxville. Get in touch and he'll respond within 24 hours.",
+    "David covers Hardin Valley, Karns, and northwest Knoxville. Get in touch and he'll respond as soon as possible.",
 };
 
 export default function HardinValleyPage() {

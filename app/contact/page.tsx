@@ -33,14 +33,14 @@ const steps = [
   {
     num: "03",
     title: "He Calls You Back",
-    body: "Expect to hear from David within 24 hours to talk through the job.",
+    body: "Expect to hear from David as soon as possible to talk through the job.",
   },
 ];
 
 const trust = [
   "Local to Knoxville, TN",
   "20+ years of experience",
-  "Responds within 24 hours",
+  "Responds as soon as possible",
   "No job too small",
 ];
 

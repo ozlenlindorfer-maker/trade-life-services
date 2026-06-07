@@ -28,7 +28,7 @@ const data: ServiceAreaData = {
     "Whether you're in a historic Maryville home that needs updating, or a newer property in Alcoa or Friendsville Road area, David serves the entire Blount County region. He handles plumbing repairs, electrical upgrades, carpentry, interior and exterior painting, and general home maintenance — all with the care and attention that a personal, single-operator service provides. Call today for a fast, no-obligation quote.",
   ctaHeading: "Maryville & Blount County — Let's Talk.",
   ctaBody:
-    "David serves Maryville, Alcoa, and all of Blount County. Reach out and he'll get back to you within 24 hours.",
+    "David serves Maryville, Alcoa, and all of Blount County. Reach out and he'll get back to you as soon as possible.",
 };
 
 export default function MaryvillePage() {

@@ -73,7 +73,7 @@ export default function HeroContactForm() {
         </div>
         <div>
           <p className="font-heading text-3xl text-cream mb-1">Request Sent!</p>
-          <p className="text-dim text-sm leading-relaxed">David will be in touch within 24 hours.</p>
+          <p className="text-dim text-sm leading-relaxed">David will be in touch as soon as possible.</p>
         </div>
       </div>
     );
@@ -124,10 +124,10 @@ export default function HeroContactForm() {
         disabled={status === "submitting"}
         className="w-full bg-rust hover:bg-rust/80 disabled:opacity-60 disabled:cursor-not-allowed text-cream font-bold text-sm py-3.5 px-5 rounded transition-colors cursor-pointer tracking-wide"
       >
-        {status === "submitting" ? "Sending…" : "Get a Free Quote →"}
+        {status === "submitting" ? "Sending…" : "Send Message →"}
       </button>
 
-      <p className="text-[10px] text-dim/50 text-center">David responds within 24 hours · No obligation</p>
+      <p className="text-[10px] text-dim/50 text-center">David responds as soon as possible · No obligation</p>
     </form>
   );
 }

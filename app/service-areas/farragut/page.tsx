@@ -28,7 +28,7 @@ const data: ServiceAreaData = {
     "From dripping faucets and running toilets to fresh paint, deck repairs, and electrical fixture upgrades, David handles the full range of home repair tasks that Farragut homeowners need. No job is passed off to a subcontractor — David handles every job himself, which means you get consistent quality and a direct line to the person doing the work. Most jobs in Farragut can be scheduled within days of your first call.",
   ctaHeading: "Need a Handyman in Farragut?",
   ctaBody:
-    "Call or fill out the form — David will get back to you within 24 hours to discuss the job. Most Farragut jobs scheduled within days.",
+    "Call or fill out the form — David will get back to you as soon as possible to discuss the job. Most Farragut jobs scheduled within days.",
 };
 
 export default function FarragutPage() {

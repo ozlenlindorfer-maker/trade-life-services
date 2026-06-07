@@ -28,7 +28,7 @@ const data: ServiceAreaData = {
     "From leaky faucets and running toilets to fence repairs, deck maintenance, interior painting, and drywall work — David handles it all across Powell and north Knox County. He works on every job personally, which means consistent quality and honest pricing every time. No callcentres, no middlemen — just David and the tools to get the job done. Call today to get on the schedule.",
   ctaHeading: "Powell Homeowner? Let's Talk.",
   ctaBody:
-    "David covers Powell and all of north Knox County. Reach out and he'll get back to you within 24 hours.",
+    "David covers Powell and all of north Knox County. Reach out and he'll get back to you as soon as possible.",
 };
 
 export default function PowellPage() {

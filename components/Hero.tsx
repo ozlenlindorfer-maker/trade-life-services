@@ -7,7 +7,7 @@ const trustPoints = [
   "20+ years experience",
   "500+ jobs completed",
   "No job too small",
-  "Responds within 24 hours",
+  "Responds as soon as possible",
 ];
 
 export default function Hero() {
@@ -147,9 +147,9 @@ export default function Hero() {
               }}
             >
               <div className="px-6 pt-6 pb-2">
-                <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-1">Free Quote</p>
-                <p className="font-heading text-cream text-2xl tracking-wide leading-tight mb-1">Get a Free Quote</p>
-                <p className="text-dim text-xs mb-5">Tell David what you need — he&apos;ll get back to you within 24 hrs.</p>
+                <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-1">Get in Touch</p>
+                <p className="font-heading text-cream text-2xl tracking-wide leading-tight mb-1">Contact David</p>
+                <p className="text-dim text-xs mb-5">Tell David what you need — he&apos;ll get back to you as soon as possible.</p>
               </div>
               <div className="px-6 pb-6">
                 <HeroContactForm />

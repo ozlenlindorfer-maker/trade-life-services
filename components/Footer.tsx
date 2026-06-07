@@ -77,7 +77,7 @@ export default function Footer() {
                 href="/contact"
                 className="inline-block bg-rust hover:bg-rust/80 text-cream text-xs font-bold px-5 py-2.5 rounded transition-colors cursor-pointer tracking-wide"
               >
-                Get a Free Quote
+                Contact David
               </Link>
             </div>
           </div>

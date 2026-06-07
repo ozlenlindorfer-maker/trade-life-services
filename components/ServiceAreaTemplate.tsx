@@ -75,7 +75,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
               href="/contact"
               className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-9 py-4 rounded transition-colors cursor-pointer"
             >
-              Get a Free Quote
+              Contact David
             </Link>
             <a
               href="tel:+18652471871"
@@ -116,7 +116,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
                     "Local to Knoxville, TN",
                     "20+ years of experience",
                     "500+ jobs completed",
-                    "Responds within 24 hours",
+                    "Responds as soon as possible",
                     "No job too small",
                     "Honest, upfront pricing",
                   ].map((item) => (
