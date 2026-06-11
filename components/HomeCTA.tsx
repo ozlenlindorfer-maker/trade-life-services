@@ -43,16 +43,16 @@ export default function HomeCTA() {
           </h2>
 
           <p className="text-dim text-lg mb-10 max-w-md mx-auto leading-relaxed">
-            Reach out and David will be in touch. Serving Knoxville, TN and
+            Reach out and we&apos;ll be in touch. Serving Knoxville, TN and
             surrounding areas — most jobs scheduled within days.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/contact"
+              href="/#contact"
               className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer"
             >
-              Contact David
+              Get in Touch
             </Link>
             <a
               href="tel:+18652471871"

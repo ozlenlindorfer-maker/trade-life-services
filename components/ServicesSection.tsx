@@ -11,7 +11,7 @@ const services = [
       </svg>
     ),
     name: "General Repairs & Maintenance",
-    desc: "If it's broken, David fixes it. Leaks, holes, squeaks — no problem.",
+    desc: "If it's broken, we fix it. Leaks, holes, squeaks — no problem.",
     href: "/services/general-repairs",
     photo: "https://images.unsplash.com/photo-1574359411659-15573a27fd0c?w=600&q=75",
   },
@@ -99,7 +99,7 @@ export default function ServicesSection() {
               What We Handle
             </h2>
             <p className="text-dim text-lg max-w-xl leading-relaxed">
-              One call, one guy, everything sorted. David covers the full range
+              One call, everything sorted. We cover the full range
               of home and property repairs across Knoxville and the surrounding area.
             </p>
           </div>

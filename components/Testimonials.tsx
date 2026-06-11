@@ -2,7 +2,7 @@ import FadeUp from "./FadeUp";
 
 const testimonials = [
   {
-    text: "David fixed our leaking pipe in under an hour. Professional, fast, and fairly priced. Won't be calling anyone else.",
+    text: "They fixed our leaking pipe in under an hour. Professional, fast, and fairly priced. Won't be calling anyone else.",
     name: "Sarah M.",
     location: "Knoxville, TN",
   },
@@ -54,7 +54,7 @@ export default function Testimonials() {
               What People Say
             </span>
             <h2 className="font-heading text-6xl sm:text-7xl text-cream mt-2">
-              Knoxville Trusts David
+              Knoxville Trusts Us
             </h2>
           </div>
         </FadeUp>

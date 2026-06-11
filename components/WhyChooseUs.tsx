@@ -3,7 +3,7 @@ import FadeUp from "./FadeUp";
 const points = [
   {
     title: "Local & Reliable",
-    body: "Based right here in Knoxville. David shows up when he says he will — no runaround, no excuses.",
+    body: "Based right here in Knoxville. We show up when we say we will — no runaround, no excuses.",
   },
   {
     title: "No Job Too Small",
@@ -15,7 +15,7 @@ const points = [
   },
   {
     title: "Serving Greater Knoxville",
-    body: "Knoxville, Maryville, Oak Ridge, Farragut, and across Knox County — David's got your area covered.",
+    body: "Knoxville, Maryville, Oak Ridge, Farragut, and across Knox County — we&apos;ve got your area covered.",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function WhyChooseUs() {
               Why Us
             </span>
             <h2 className="font-heading text-6xl sm:text-7xl text-cream mt-2">
-              Why Knoxville Calls David
+              Why Knoxville Calls Us
             </h2>
           </div>
         </FadeUp>

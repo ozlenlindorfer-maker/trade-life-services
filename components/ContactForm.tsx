@@ -112,7 +112,7 @@ export default function ContactForm() {
         </div>
         <h3 className="font-heading text-4xl text-cream mb-3">You're All Set!</h3>
         <p className="text-dim text-base leading-relaxed">
-          Thanks for reaching out. David will be in touch with you shortly.
+          Thanks for reaching out. We&apos;ll be in touch with you shortly.
         </p>
       </div>
     );
@@ -202,7 +202,7 @@ export default function ContactForm() {
         <textarea
           value={form.description}
           onChange={set("description")}
-          placeholder="Any extra details that would help David understand the job..."
+          placeholder="Any extra details that would help us understand the job..."
           rows={4}
           className={inputClass}
         />

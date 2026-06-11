@@ -69,15 +69,15 @@ export default function Footer() {
             <p className="text-[10px] font-bold tracking-[0.25em] uppercase text-dim/60 mb-4">Quick Links</p>
             <ul className="space-y-2.5">
               <li><Link href="/" className="text-dim text-sm hover:text-cream transition-colors">Home</Link></li>
-              <li><Link href="/contact" className="text-dim text-sm hover:text-cream transition-colors">Contact David</Link></li>
+              <li><Link href="/#contact" className="text-dim text-sm hover:text-cream transition-colors">Contact Us</Link></li>
             </ul>
             <div className="mt-8">
               <p className="text-dim/50 text-[10px] mb-1.5">Serving Knoxville &amp; Knox County</p>
               <Link
-                href="/contact"
+                href="/#contact"
                 className="inline-block bg-rust hover:bg-rust/80 text-cream text-xs font-bold px-5 py-2.5 rounded transition-colors cursor-pointer tracking-wide"
               >
-                Contact David
+                Contact Us
               </Link>
             </div>
           </div>

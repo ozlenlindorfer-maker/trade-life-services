@@ -73,7 +73,7 @@ export default function HeroContactForm() {
         </div>
         <div>
           <p className="font-heading text-3xl text-cream mb-1">Request Sent!</p>
-          <p className="text-dim text-sm leading-relaxed">David will be in touch as soon as possible.</p>
+          <p className="text-dim text-sm leading-relaxed">We&apos;ll be in touch as soon as possible.</p>
         </div>
       </div>
     );
@@ -127,7 +127,7 @@ export default function HeroContactForm() {
         {status === "submitting" ? "Sending…" : "Send Message →"}
       </button>
 
-      <p className="text-[10px] text-dim/50 text-center">David responds as soon as possible · No obligation</p>
+      <p className="text-[10px] text-dim/50 text-center">We respond as soon as possible · No obligation</p>
     </form>
   );
 }
