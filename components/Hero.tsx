@@ -72,18 +72,18 @@ export default function Hero() {
             {/* Headline */}
             <h1 className="font-heading leading-none tracking-wide mb-8">
               <motion.span
-                className="block text-dim mb-1"
-                style={{ fontSize: "clamp(1.8rem,3.8vw,3.2rem)" }}
+                className="block text-cream"
+                style={{ fontSize: "clamp(3rem,7.5vw,6.5rem)", lineHeight: 0.88 }}
                 initial={from} animate={to} transition={t(0.1)}
               >
-                Hey, I&apos;m
+                TRADE LIFE
               </motion.span>
               <motion.span
-                className="block text-cream"
-                style={{ fontSize: "clamp(5rem,13vw,11rem)", lineHeight: 0.88 }}
+                className="block text-rust"
+                style={{ fontSize: "clamp(3rem,7.5vw,6.5rem)", lineHeight: 0.92 }}
                 initial={from} animate={to} transition={t(0.2)}
               >
-                DAVID.
+                SERVICES.
               </motion.span>
               <motion.span
                 className="flex items-baseline gap-3 flex-wrap mt-4"
