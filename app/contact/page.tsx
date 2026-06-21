@@ -133,7 +133,7 @@ export default function ContactPage() {
                 Why Trade Life Services
               </p>
               <h2 className="font-heading text-4xl sm:text-5xl text-cream leading-tight mb-6">
-                One Guy.
+                Done Once.
                 <br />
                 Done Right.
               </h2>

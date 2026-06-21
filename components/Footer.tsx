@@ -29,7 +29,7 @@ export default function Footer() {
               Trade Life <span className="text-rust">Services</span>
             </Link>
             <p className="text-dim text-sm mt-2 mb-4 leading-relaxed">
-              Knoxville&apos;s trusted handyman. One guy, done right.
+              Knoxville&apos;s trusted handyman service. Done once, done right.
             </p>
             <a href="tel:+18652471871" className="text-warm hover:text-cream font-semibold text-sm transition-colors">
               (865) 247-1871

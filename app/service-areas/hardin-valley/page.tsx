@@ -25,7 +25,7 @@ const data: ServiceAreaData = {
   intro:
     "Hardin Valley has become one of the fastest-growing communities in the Knoxville area, with many newer homes that still need the care and upkeep that every property requires over time. Trade Life Services covers Hardin Valley, Karns, and the broader northwest Knoxville corridor.",
   body:
-    "Whether it's a new build that needs a few things sorted out, or an older home in need of maintenance, we handle plumbing repairs, electrical work, carpentry, painting, drywall, and general home repairs throughout Hardin Valley. We bring 20+ years of experience to every job and handle each one personally — no crews, no subcontractors. Just reliable work at an honest price, scheduled quickly and done right.",
+    "Whether it's a new build that needs a few things sorted out, or an older home in need of maintenance, we handle plumbing repairs, electrical work, carpentry, painting, drywall, and general home repairs throughout Hardin Valley. We bring 20+ years of experience to every job and handle each one with care — no subcontractors, no runaround. Just reliable work at an honest price, scheduled quickly and done right.",
   ctaHeading: "Hardin Valley — One Call Gets It Done.",
   ctaBody:
     "We cover Hardin Valley, Karns, and northwest Knoxville. Get in touch and we'll respond as soon as possible.",

@@ -25,7 +25,7 @@ const data: ServiceAreaData = {
   intro:
     "Oak Ridge has a proud history and a strong community of homeowners who take care of their properties. Whether your home is decades old or recently built, it needs regular maintenance and the occasional repair — and that's where we come in. Trade Life Services covers Oak Ridge and the surrounding Anderson County area.",
   body:
-    "We handle the full range of handyman services in Oak Ridge: leaky pipes, running toilets, drywall patches, cabinet repairs, deck maintenance, light fixture replacements, painting touch-ups, and more. You deal directly with the person doing the work — no surprises, no subcontractors, just reliable service at a fair price. Most Oak Ridge jobs can be scheduled within days.",
+    "We handle the full range of handyman services in Oak Ridge: leaky pipes, running toilets, drywall patches, cabinet repairs, deck maintenance, light fixture replacements, painting touch-ups, and more. You deal directly with the team doing the work — no surprises, no subcontractors, just reliable service at a fair price. Most Oak Ridge jobs can be scheduled within days.",
   ctaHeading: "Oak Ridge — Let Us Sort It.",
   ctaBody:
     "Trade Life Services covers Oak Ridge and Anderson County. Call or send a message — we respond as soon as possible.",
