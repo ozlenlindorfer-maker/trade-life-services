@@ -30,8 +30,9 @@ export async function POST(request: NextRequest) {
 
     const resend = new Resend(process.env.RESEND_API_KEY);
     await resend.emails.send({
-      from: "Trade Life Services <noreply@tradelifeservices.com>",
+      from: "Trade Life Services <noreply@ozllen.com>",
       to: process.env.NOTIFY_EMAIL!,
+      replyTo: email,
       subject: `New Quote Request — ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background: #f9f9f9; padding: 24px; border-radius: 8px;">
