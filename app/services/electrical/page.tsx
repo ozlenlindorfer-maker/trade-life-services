@@ -67,7 +67,7 @@ export default function ElectricalPage() {
           <div className="mb-14">
             <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">What We Handle</span>
             <h2 className="font-heading text-5xl sm:text-6xl text-cream mt-2 mb-4">Common Electrical Jobs</h2>
-            <p className="text-dim text-lg max-w-xl leading-relaxed">David handles the electrical jobs most homeowners in Knoxville deal with — without the wait time or price tag of a full electrical contractor.</p>
+            <p className="text-dim text-lg max-w-xl leading-relaxed">We handle the electrical jobs most homeowners in Knoxville deal with — without the wait time or price tag of a full electrical contractor.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {tasks.map((task, i) => (
@@ -95,7 +95,7 @@ export default function ElectricalPage() {
           <p className="text-dim text-lg mb-10 max-w-md mx-auto leading-relaxed">Serving Knoxville, Farragut, Maryville, Oak Ridge, and Knox County. Most jobs scheduled within days.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors">
-              Contact David
+              Contact Us
             </Link>
             <a href="tel:+18652471871" className="inline-flex items-center justify-center border-2 border-warm/70 hover:border-warm text-cream font-bold text-base px-10 py-4 rounded transition-colors">
               Call (865) 247&#8209;1871

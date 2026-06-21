@@ -5,13 +5,13 @@ import ContactForm from "@/components/ContactForm";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tradelifeservices.com";
 
 export const metadata: Metadata = {
-  title: "Contact David",
+  title: "Contact Trade Life Services",
   description:
-    "Get in touch with Trade Life Services. Fill out the form or call David directly at (865) 247-1871. Knoxville's trusted handyman — most jobs scheduled within days.",
+    "Get in touch with Trade Life Services. Fill out the form or call us directly at (865) 247-1871. Knoxville's trusted handyman — most jobs scheduled within days.",
   openGraph: {
     title: "Contact Trade Life Services | Knoxville Handyman",
     description:
-      "Reach out to David at Trade Life Services. Most jobs scheduled within days. Serving Knoxville, TN and surrounding areas.",
+      "Reach out to Trade Life Services. Most jobs scheduled within days. Serving Knoxville, TN and surrounding areas.",
     url: `${siteUrl}/contact`,
   },
   alternates: {
@@ -23,17 +23,17 @@ const steps = [
   {
     num: "01",
     title: "Fill the Form",
-    body: "Tell David what you need — job type, rough timeframe, any useful details.",
+    body: "Tell us what you need — job type, rough timeframe, any useful details.",
   },
   {
     num: "02",
-    title: "David Reviews It",
-    body: "He reads every request himself. No call centre, no middleman.",
+    title: "We Review It",
+    body: "We read every request ourselves. No call centre, no middleman.",
   },
   {
     num: "03",
-    title: "He Calls You Back",
-    body: "Expect to hear from David as soon as possible to talk through the job.",
+    title: "We Call You Back",
+    body: "Expect to hear from us as soon as possible to talk through the job.",
   },
 ];
 
@@ -83,7 +83,7 @@ export default function ContactPage() {
             <span className="text-rust">To Work.</span>
           </h1>
           <p className="text-dim text-xl max-w-lg leading-relaxed">
-            Tell David what you need — most jobs scheduled within days.
+            Tell us what you need — most jobs scheduled within days.
             No obligation, no runaround.
           </p>
         </div>
@@ -130,7 +130,7 @@ export default function ContactPage() {
           >
             <div className="lg:sticky lg:top-24">
               <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-4">
-                Why David
+                Why Trade Life Services
               </p>
               <h2 className="font-heading text-4xl sm:text-5xl text-cream leading-tight mb-6">
                 One Guy.
@@ -181,7 +181,7 @@ export default function ContactPage() {
           {/* Right — Form */}
           <div className="px-6 sm:px-10 py-12 lg:py-16" style={{ background: "#1c1814" }}>
             <h3 className="font-heading text-3xl text-cream mb-8 tracking-wide">
-              Tell David About the Job
+              Tell Us About the Job
             </h3>
             <ContactForm />
           </div>
@@ -204,7 +204,7 @@ export default function ContactPage() {
             Prefer to Talk?
           </p>
           <p className="text-dim text-lg mb-8 leading-relaxed">
-            Call David directly — no hold music, no voicemail maze.
+            Call us directly — no hold music, no voicemail maze.
           </p>
           <a
             href="tel:+18652471871"

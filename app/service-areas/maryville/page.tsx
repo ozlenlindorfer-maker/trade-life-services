@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteUrl}/service-areas/maryville` },
   openGraph: {
     title: "Handyman in Maryville, TN | Trade Life Services",
-    description: "Trusted handyman services in Maryville, TN and Blount County. Call David at (865) 247-1871.",
+    description: "Trusted handyman services in Maryville, TN and Blount County. Call us at (865) 247-1871.",
     url: `${siteUrl}/service-areas/maryville`,
   },
 };
@@ -21,14 +21,14 @@ const data: ServiceAreaData = {
   slug: "maryville",
   headline: "Handyman in\nMaryville, TN",
   subheadline:
-    "Covering Maryville and Blount County for repairs, maintenance, and home improvements. David is one phone call away — honest pricing, quality work, no surprises.",
+    "Covering Maryville and Blount County for repairs, maintenance, and home improvements. We're one phone call away — honest pricing, quality work, no surprises.",
   intro:
     "Maryville is a growing city south of Knoxville with a mix of established neighborhoods and newer developments. Homeowners across Blount County rely on Trade Life Services for everything from routine maintenance to bigger projects that require a skilled, experienced hand.",
   body:
-    "Whether you're in a historic Maryville home that needs updating, or a newer property in Alcoa or Friendsville Road area, David serves the entire Blount County region. He handles plumbing repairs, electrical upgrades, carpentry, interior and exterior painting, and general home maintenance — all with the care and attention that a personal, single-operator service provides. Call today for a fast, no-obligation quote.",
+    "Whether you're in a historic Maryville home that needs updating, or a newer property in Alcoa or Friendsville Road area, we serve the entire Blount County region. We handle plumbing repairs, electrical upgrades, carpentry, interior and exterior painting, and general home maintenance — all with the care and attention that a personal, hands-on service provides. Call today for a fast, no-obligation quote.",
   ctaHeading: "Maryville & Blount County — Let's Talk.",
   ctaBody:
-    "David serves Maryville, Alcoa, and all of Blount County. Reach out and he'll get back to you as soon as possible.",
+    "We serve Maryville, Alcoa, and all of Blount County. Reach out and we'll get back to you as soon as possible.",
 };
 
 export default function MaryvillePage() {

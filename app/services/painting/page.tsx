@@ -48,7 +48,7 @@ export default function PaintingPage() {
             Painting &amp;<br /><span className="text-rust">Decorating</span>
           </h1>
           <p className="text-dim text-xl max-w-xl leading-relaxed mb-10">
-            Clean lines, smooth finishes — interior and exterior painting done properly. David takes the time to prep right so the results last.
+            Clean lines, smooth finishes — interior and exterior painting done properly. We take the time to prep right so the results last.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-9 py-4 rounded transition-colors">
@@ -67,7 +67,7 @@ export default function PaintingPage() {
           <div className="mb-14">
             <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">What We Paint</span>
             <h2 className="font-heading text-5xl sm:text-6xl text-cream mt-2 mb-4">Painting Jobs We Take On</h2>
-            <p className="text-dim text-lg max-w-xl leading-relaxed">Good painting is 80% prep. David does it properly — surfaces cleaned, primed, and ready before a brush touches the wall.</p>
+            <p className="text-dim text-lg max-w-xl leading-relaxed">Good painting is 80% prep. We do it properly — surfaces cleaned, primed, and ready before a brush touches the wall.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {tasks.map((task, i) => (
@@ -95,7 +95,7 @@ export default function PaintingPage() {
           <p className="text-dim text-lg mb-10 max-w-md mx-auto leading-relaxed">Serving Knoxville, Maryville, Farragut, Oak Ridge, and Knox County. Most jobs scheduled within days.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors">
-              Contact David
+              Contact Us
             </Link>
             <a href="tel:+18652471871" className="inline-flex items-center justify-center border-2 border-warm/70 hover:border-warm text-cream font-bold text-base px-10 py-4 rounded transition-colors">
               Call (865) 247&#8209;1871

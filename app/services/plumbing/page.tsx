@@ -11,18 +11,18 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteUrl}/services/plumbing` },
   openGraph: {
     title: "Plumbing Repairs Knoxville TN | Trade Life Services",
-    description: "Fast, reliable plumbing repairs across Knoxville and Knox County. Call David at (865) 247-1871.",
+    description: "Fast, reliable plumbing repairs across Knoxville and Knox County. Call us at (865) 247-1871.",
     url: `${siteUrl}/services/plumbing`,
   },
 };
 
 const tasks = [
-  { title: "Dripping Faucets", body: "A dripping faucet wastes thousands of gallons a year. David finds the source and fixes it for good." },
-  { title: "Running Toilets", body: "Constantly running toilets are loud and costly. Flapper, fill valve, flush valve — David sorts it." },
+  { title: "Dripping Faucets", body: "A dripping faucet wastes thousands of gallons a year. We find the source and fix it for good." },
+  { title: "Running Toilets", body: "Constantly running toilets are loud and costly. Flapper, fill valve, flush valve — we sort it." },
   { title: "Blocked Drains", body: "Slow or completely blocked sinks, showers, and tubs cleared quickly without damage to your pipes." },
   { title: "Leaky Pipes", body: "Under the sink, behind walls, in the basement — leaks found and sealed before they cause real damage." },
   { title: "Fixture Replacement", body: "New faucets, showerheads, or supply lines installed properly so they don't leak again in six months." },
-  { title: "Water Heater Issues", body: "No hot water, strange noises, or leaks around your heater — David diagnoses and fixes the problem." },
+  { title: "Water Heater Issues", body: "No hot water, strange noises, or leaks around your heater — we diagnose and fix the problem." },
 ];
 
 export default function PlumbingPage() {
@@ -48,7 +48,7 @@ export default function PlumbingPage() {
             Plumbing<br /><span className="text-rust">Repairs</span>
           </h1>
           <p className="text-dim text-xl max-w-xl leading-relaxed mb-10">
-            Dripping faucets, running toilets, blocked drains — sorted fast. David handles plumbing repairs across Knoxville and Knox County without the big plumber price tag.
+            Dripping faucets, running toilets, blocked drains — sorted fast. We handle plumbing repairs across Knoxville and Knox County without the big plumber price tag.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-9 py-4 rounded transition-colors">
@@ -67,7 +67,7 @@ export default function PlumbingPage() {
           <div className="mb-14">
             <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">What We Fix</span>
             <h2 className="font-heading text-5xl sm:text-6xl text-cream mt-2 mb-4">Common Plumbing Jobs</h2>
-            <p className="text-dim text-lg max-w-xl leading-relaxed">Most plumbing problems don&rsquo;t need a licensed plumber — they need someone reliable who knows what they&rsquo;re doing. That&rsquo;s David.</p>
+            <p className="text-dim text-lg max-w-xl leading-relaxed">Most plumbing problems don&rsquo;t need a licensed plumber — they need someone reliable who knows what they&rsquo;re doing. That&rsquo;s us.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {tasks.map((task, i) => (
@@ -90,12 +90,12 @@ export default function PlumbingPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">Got a Leak?</span>
           <h2 className="font-heading text-cream mt-3 mb-5 leading-none" style={{ fontSize: "clamp(3rem,7vw,6rem)" }}>
-            Don&rsquo;t Wait. <span className="text-rust">Call David.</span>
+            Don&rsquo;t Wait. <span className="text-rust">Call Us.</span>
           </h2>
           <p className="text-dim text-lg mb-10 max-w-md mx-auto leading-relaxed">Plumbing problems get worse the longer you leave them. Knoxville and Knox County — most jobs scheduled within days.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors">
-              Contact David
+              Contact Us
             </Link>
             <a href="tel:+18652471871" className="inline-flex items-center justify-center border-2 border-warm/70 hover:border-warm text-cream font-bold text-base px-10 py-4 rounded transition-colors">
               Call (865) 247&#8209;1871

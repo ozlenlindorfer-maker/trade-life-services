@@ -1,7 +1,7 @@
 # Trade Life Services
 
 ## About
-Trade Life Services is a handyman and home repair business based in Knoxville, Tennessee. It is operated by a single skilled tradesman named David, who personally handles every job. The business motto is "No job too small. No problem too big."
+Trade Life Services is a handyman and home repair business based in Knoxville, Tennessee. It is run by a single skilled local tradesman who personally handles every job. The business motto is "No job too small. No problem too big."
 
 ## Contact
 - Phone: (865) 247-1871
@@ -29,8 +29,8 @@ Trade Life Services is a handyman and home repair business based in Knoxville, T
 
 ## How to Book
 1. Fill out the contact form at /contact or call (865) 247-1871
-2. David reviews the request personally
-3. He calls back as soon as possible to discuss the job
+2. We review the request personally
+3. We call back as soon as possible to discuss the job
 4. Most jobs are scheduled within days
 
 ## Service Area Pages

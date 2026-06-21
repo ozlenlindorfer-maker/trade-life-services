@@ -22,7 +22,7 @@ const tasks = [
   { title: "Fixture Installation", body: "Ceiling fans, light fixtures, towel bars, mirrors, curtain rods — hung level and secure." },
   { title: "Caulking & Sealing", body: "Bathrooms, kitchens, windows — properly sealed to keep moisture and drafts out." },
   { title: "Gutter Cleaning & Repair", body: "Clogged or sagging gutters cleared and reattached before they cause bigger problems." },
-  { title: "Odd Jobs & Punch Lists", body: "That list of things you've been putting off? David works through it all in one visit." },
+  { title: "Odd Jobs & Punch Lists", body: "That list of things you've been putting off? We work through it all in one visit." },
 ];
 
 export default function GeneralRepairsPage() {
@@ -48,7 +48,7 @@ export default function GeneralRepairsPage() {
             General Repairs<br /><span className="text-rust">&amp; Maintenance</span>
           </h1>
           <p className="text-dim text-xl max-w-xl leading-relaxed mb-10">
-            If it&rsquo;s broken, David fixes it. One visit, one guy, everything on your list sorted — no job too small, no problem too big.
+            If it&rsquo;s broken, we fix it. One visit, everything on your list sorted — no job too small, no problem too big.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-9 py-4 rounded transition-colors">
@@ -66,8 +66,8 @@ export default function GeneralRepairsPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="mb-14">
             <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">What We Cover</span>
-            <h2 className="font-heading text-5xl sm:text-6xl text-cream mt-2 mb-4">Common Jobs David Handles</h2>
-            <p className="text-dim text-lg max-w-xl leading-relaxed">Knoxville homeowners call David for all the jobs that pile up. Here&rsquo;s what a typical visit covers — but if it&rsquo;s not on the list, just ask.</p>
+            <h2 className="font-heading text-5xl sm:text-6xl text-cream mt-2 mb-4">Common Jobs We Handle</h2>
+            <p className="text-dim text-lg max-w-xl leading-relaxed">Knoxville homeowners call us for all the jobs that pile up. Here&rsquo;s what a typical visit covers — but if it&rsquo;s not on the list, just ask.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {tasks.map((task, i) => (
@@ -96,7 +96,7 @@ export default function GeneralRepairsPage() {
           <p className="text-dim text-lg mb-10 max-w-md mx-auto leading-relaxed">Serving Knoxville, Maryville, Oak Ridge, Farragut, and Knox County. Most jobs scheduled within days.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors">
-              Contact David
+              Contact Us
             </Link>
             <a href="tel:+18652471871" className="inline-flex items-center justify-center border-2 border-warm/70 hover:border-warm text-cream font-bold text-base px-10 py-4 rounded transition-colors">
               Call (865) 247&#8209;1871

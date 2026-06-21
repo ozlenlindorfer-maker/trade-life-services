@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteUrl}/service-areas/powell` },
   openGraph: {
     title: "Handyman in Powell, TN | Trade Life Services",
-    description: "Trusted handyman services in Powell, TN and north Knox County. Call David at (865) 247-1871.",
+    description: "Trusted handyman services in Powell, TN and north Knox County. Call us at (865) 247-1871.",
     url: `${siteUrl}/service-areas/powell`,
   },
 };
@@ -21,14 +21,14 @@ const data: ServiceAreaData = {
   slug: "powell",
   headline: "Handyman in\nPowell, TN",
   subheadline:
-    "Powell and north Knox County homeowners trust David for fast, reliable home repairs and maintenance. One call and it's sorted.",
+    "Powell and north Knox County homeowners trust Trade Life Services for fast, reliable home repairs and maintenance. One call and it's sorted.",
   intro:
     "Powell is a growing community in north Knox County with a mix of established residential neighborhoods and newer developments. Homeowners in Powell, Corryton, and surrounding communities rely on Trade Life Services for quality repair work without the big contractor price tag.",
   body:
-    "From leaky faucets and running toilets to fence repairs, deck maintenance, interior painting, and drywall work — David handles it all across Powell and north Knox County. He works on every job personally, which means consistent quality and honest pricing every time. No callcentres, no middlemen — just David and the tools to get the job done. Call today to get on the schedule.",
+    "From leaky faucets and running toilets to fence repairs, deck maintenance, interior painting, and drywall work — we handle it all across Powell and north Knox County. We work on every job personally, which means consistent quality and honest pricing every time. No call centres, no middlemen — just us and the tools to get the job done. Call today to get on the schedule.",
   ctaHeading: "Powell Homeowner? Let's Talk.",
   ctaBody:
-    "David covers Powell and all of north Knox County. Reach out and he'll get back to you as soon as possible.",
+    "We cover Powell and all of north Knox County. Reach out and we'll get back to you as soon as possible.",
 };
 
 export default function PowellPage() {

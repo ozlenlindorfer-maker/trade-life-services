@@ -75,7 +75,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
               href="/contact"
               className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-9 py-4 rounded transition-colors cursor-pointer"
             >
-              Contact David
+              Contact Us
             </Link>
             <a
               href="tel:+18652471871"
@@ -110,7 +110,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
                 className="rounded-lg p-7 mt-8 lg:mt-0"
                 style={{ background: "#1c1814", border: "1px solid #3a3028", borderTop: "3px solid #2e6da4" }}
               >
-                <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-4">Why David</p>
+                <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-4">Why Trade Life Services</p>
                 <ul className="space-y-4">
                   {[
                     "Local to Knoxville, TN",
@@ -129,7 +129,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
                   ))}
                 </ul>
                 <div className="mt-7 pt-6 border-t border-dark-edge">
-                  <p className="text-dim/50 text-[10px] tracking-wide uppercase mb-1.5">Call David directly</p>
+                  <p className="text-dim/50 text-[10px] tracking-wide uppercase mb-1.5">Call us directly</p>
                   <a href="tel:+18652471871" className="font-heading text-2xl text-cream hover:text-rust transition-colors tracking-wider">
                     (865) 247&#8209;1871
                   </a>
@@ -151,10 +151,10 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
         />
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
           <FadeUp>
-            <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">What David Does in {city}</span>
+            <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">What We Do in {city}</span>
             <h2 className="font-heading text-5xl sm:text-6xl text-cream mt-2 mb-4">Services Offered</h2>
             <p className="text-dim text-lg max-w-xl mb-14 leading-relaxed">
-              Whether it&rsquo;s a quick repair or a bigger job, David handles it all across {city} and surrounding areas.
+              Whether it&rsquo;s a quick repair or a bigger job, we handle it all across {city} and surrounding areas.
             </p>
           </FadeUp>
 
@@ -213,7 +213,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
               href="/contact"
               className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer"
             >
-              Contact David
+              Contact Us
             </Link>
             <a
               href="tel:+18652471871"
