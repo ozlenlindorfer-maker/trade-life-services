@@ -72,7 +72,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="/contact"
+              href="/#contact"
               className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-9 py-4 rounded transition-colors cursor-pointer"
             >
               Contact Us
@@ -210,7 +210,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
           <p className="text-dim text-lg mb-10 max-w-md mx-auto leading-relaxed">{ctaBody}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/contact"
+              href="/#contact"
               className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer"
             >
               Contact Us

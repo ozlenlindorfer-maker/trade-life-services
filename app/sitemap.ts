@@ -6,7 +6,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = process.env.NEXT_PUBLIC_SITE_URL || "https://trade-life-services.netlify.app";
   return [
     { url: base, lastModified: new Date(), changeFrequency: "monthly", priority: 1 },
-    { url: `${base}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     // Service pages
     { url: `${base}/services/general-repairs`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/services/plumbing`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },

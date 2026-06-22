@@ -100,7 +100,7 @@ export default function PricingNote() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/contact"
+                href="/#contact"
                 className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-8 py-3.5 rounded transition-colors"
               >
                 Get a Quote

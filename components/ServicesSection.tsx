@@ -69,7 +69,7 @@ const services = [
     ),
     name: "And More",
     desc: "Knoxville homeowners and businesses — if you need it done, just ask.",
-    href: "/contact",
+    href: "/#contact",
     photo: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=600&q=75",
   },
 ];

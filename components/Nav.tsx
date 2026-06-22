@@ -17,7 +17,7 @@ export default function Nav() {
 
         <nav>
           <Link
-            href="/contact"
+            href="/#contact"
             className="bg-rust hover:bg-rust/80 text-cream text-sm font-bold px-5 py-2 rounded transition-colors tracking-wide"
           >
             Contact
