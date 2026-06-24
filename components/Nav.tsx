@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <header
       className="sticky top-0 z-50 backdrop-blur-sm border-b border-dark-edge"
-      style={{ background: "rgba(14,12,10,0.92)" }}
+      style={{ background: "rgba(250,248,244,0.85)" }}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <Link
@@ -18,7 +18,7 @@ export default function Nav() {
         <nav>
           <Link
             href="/#contact"
-            className="bg-rust hover:bg-rust/80 text-cream text-sm font-bold px-5 py-2 rounded transition-colors tracking-wide"
+            className="bg-rust hover:bg-rust/80 text-white text-sm font-bold px-5 py-2 rounded transition-colors tracking-wide"
           >
             Contact
           </Link>

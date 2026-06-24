@@ -42,7 +42,7 @@ export default function Testimonials() {
       <div
         className="absolute inset-0 opacity-[0.045]"
         style={{
-          backgroundImage: "radial-gradient(circle,#fff 1px,transparent 1px)",
+          backgroundImage: "radial-gradient(circle,#000 1px,transparent 1px)",
           backgroundSize: "28px 28px",
         }}
       />

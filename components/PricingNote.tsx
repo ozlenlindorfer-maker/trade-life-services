@@ -20,13 +20,13 @@ export default function PricingNote() {
   return (
     <section
       className="py-24 relative overflow-hidden border-b border-dark-edge"
-      style={{ background: "#141210" }}
+      style={{ background: "#faf8f4" }}
     >
       {/* Dot texture */}
       <div
         className="absolute inset-0 opacity-[0.03]"
         style={{
-          backgroundImage: "radial-gradient(circle,#fff 1px,transparent 1px)",
+          backgroundImage: "radial-gradient(circle,#000 1px,transparent 1px)",
           backgroundSize: "28px 28px",
         }}
       />
@@ -55,16 +55,16 @@ export default function PricingNote() {
               <div
                 className="relative rounded-lg p-7 h-full overflow-hidden"
                 style={{
-                  background: "#1c1814",
-                  borderTop: "1px solid #3a3028",
-                  borderRight: "1px solid #3a3028",
-                  borderBottom: "1px solid #3a3028",
-                  borderLeft: "3px solid #2e6da4",
+                  background: "#ffffff",
+                  borderTop: "1px solid #e5dcce",
+                  borderRight: "1px solid #e5dcce",
+                  borderBottom: "1px solid #e5dcce",
+                  borderLeft: "3px solid #2a6296",
                 }}
               >
                 <span
-                  className="absolute top-2 right-4 font-heading text-7xl leading-none text-white select-none pointer-events-none"
-                  style={{ opacity: 0.04 }}
+                  className="absolute top-2 right-4 font-heading text-7xl leading-none text-rust select-none pointer-events-none"
+                  style={{ opacity: 0.06 }}
                   aria-hidden
                 >
                   {String(i + 1).padStart(2, "0")}
@@ -84,9 +84,9 @@ export default function PricingNote() {
             className="rounded-lg p-8 sm:p-10"
             style={{
               background:
-                "linear-gradient(180deg, rgba(46,109,164,0.10) 0%, rgba(46,109,164,0.02) 100%), #1a1510",
-              border: "1px solid #3a3028",
-              borderTop: "3px solid #2e6da4",
+                "linear-gradient(180deg, rgba(42,98,150,0.06) 0%, rgba(42,98,150,0.03) 100%), #ffffff",
+              border: "1px solid #e5dcce",
+              borderTop: "3px solid #2a6296",
             }}
           >
             <h3 className="font-heading text-2xl sm:text-3xl text-cream tracking-wide mb-3">
@@ -101,7 +101,7 @@ export default function PricingNote() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/#contact"
-                className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-8 py-3.5 rounded transition-colors"
+                className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-8 py-3.5 rounded transition-colors"
               >
                 Get a Quote
               </Link>

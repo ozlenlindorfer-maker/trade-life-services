@@ -33,12 +33,12 @@ export default function PlumbingPage() {
         className="py-28 relative overflow-hidden border-b border-rust/20"
         style={{
           background: `
-            radial-gradient(ellipse at 0% 100%, rgba(46,109,164,0.2) 0%, transparent 55%),
-            linear-gradient(180deg, #0a0806 0%, #141210 100%)
+            radial-gradient(ellipse at 0% 100%, rgba(42,98,150,0.10) 0%, transparent 55%),
+            linear-gradient(180deg, #ffffff 0%, #f1ece3 100%)
           `,
         }}
       >
-        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "repeating-linear-gradient(45deg,#fff 0,#fff 1px,transparent 0,transparent 50%)", backgroundSize: "12px 12px" }} />
+        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "repeating-linear-gradient(45deg,#000 0,#000 1px,transparent 0,transparent 50%)", backgroundSize: "12px 12px" }} />
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-3 mb-6">
             <div className="h-px w-10 bg-rust" />
@@ -51,7 +51,7 @@ export default function PlumbingPage() {
             Dripping faucets, running toilets, blocked drains — sorted fast. We handle plumbing repairs across Knoxville and Knox County without the big plumber price tag.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/#contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-9 py-4 rounded transition-colors">
+            <Link href="/#contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-9 py-4 rounded transition-colors">
               Get a Quote
             </Link>
             <a href="tel:+18652471871" className="inline-flex items-center justify-center border-2 border-warm/70 hover:border-warm text-cream font-bold text-base px-9 py-4 rounded transition-colors">
@@ -62,7 +62,7 @@ export default function PlumbingPage() {
       </section>
 
       {/* What's included */}
-      <section className="py-24" style={{ background: "#141210" }}>
+      <section className="py-24" style={{ background: "#faf8f4" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="mb-14">
             <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">What We Fix</span>
@@ -74,9 +74,9 @@ export default function PlumbingPage() {
               <div
                 key={task.title}
                 className="relative rounded-lg p-6 overflow-hidden"
-                style={{ background: "#1c1814", borderTop: "1px solid #3a3028", borderRight: "1px solid #3a3028", borderBottom: "1px solid #3a3028", borderLeft: "3px solid #2e6da4" }}
+                style={{ background: "#ffffff", borderTop: "1px solid #e5dcce", borderRight: "1px solid #e5dcce", borderBottom: "1px solid #e5dcce", borderLeft: "3px solid #2a6296" }}
               >
-                <span className="absolute top-2 right-4 font-heading text-7xl leading-none text-white select-none pointer-events-none" style={{ opacity: 0.04 }} aria-hidden>{String(i + 1).padStart(2, "0")}</span>
+                <span className="absolute top-2 right-4 font-heading text-7xl leading-none text-rust select-none pointer-events-none" style={{ opacity: 0.06 }} aria-hidden>{String(i + 1).padStart(2, "0")}</span>
                 <h3 className="font-heading text-2xl text-cream tracking-wide mb-2">{task.title}</h3>
                 <p className="text-dim text-sm leading-relaxed">{task.body}</p>
               </div>
@@ -86,7 +86,7 @@ export default function PlumbingPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 border-t border-rust/20 text-center" style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(46,109,164,0.2) 0%, transparent 65%), #0a0806" }}>
+      <section className="py-20 border-t border-rust/20 text-center" style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(42,98,150,0.10) 0%, transparent 65%), #f1ece3" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <span className="text-rust text-xs font-bold tracking-[0.3em] uppercase">Got a Leak?</span>
           <h2 className="font-heading text-cream mt-3 mb-5 leading-none" style={{ fontSize: "clamp(3rem,7vw,6rem)" }}>
@@ -94,7 +94,7 @@ export default function PlumbingPage() {
           </h2>
           <p className="text-dim text-lg mb-10 max-w-md mx-auto leading-relaxed">Plumbing problems get worse the longer you leave them. Knoxville and Knox County — most jobs scheduled within days.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/#contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors">
+            <Link href="/#contact" className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-10 py-4 rounded transition-colors">
               Contact Us
             </Link>
             <a href="tel:+18652471871" className="inline-flex items-center justify-center border-2 border-warm/70 hover:border-warm text-cream font-bold text-base px-10 py-4 rounded transition-colors">

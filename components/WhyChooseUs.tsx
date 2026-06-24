@@ -23,13 +23,13 @@ export default function WhyChooseUs() {
   return (
     <section
       className="py-24 relative overflow-hidden"
-      style={{ background: "#1a1510" }}
+      style={{ background: "#ffffff" }}
     >
       {/* Stripe texture */}
       <div
         className="absolute inset-0 opacity-[0.025]"
         style={{
-          backgroundImage: "repeating-linear-gradient(-45deg,#fff 0,#fff 1px,transparent 0,transparent 50%)",
+          backgroundImage: "repeating-linear-gradient(-45deg,#000 0,#000 1px,transparent 0,transparent 50%)",
           backgroundSize: "18px 18px",
         }}
       />

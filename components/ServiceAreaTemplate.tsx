@@ -31,15 +31,15 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
         className="py-28 relative overflow-hidden border-b border-rust/20"
         style={{
           background: `
-            radial-gradient(ellipse at 0% 100%, rgba(46,109,164,0.2) 0%, transparent 55%),
-            linear-gradient(180deg, #0a0806 0%, #141210 100%)
+            radial-gradient(ellipse at 0% 100%, rgba(42,98,150,0.10) 0%, transparent 55%),
+            linear-gradient(180deg, #f1ece3 0%, #faf8f4 100%)
           `,
         }}
       >
         <div
           className="absolute inset-0 opacity-[0.03]"
           style={{
-            backgroundImage: "repeating-linear-gradient(45deg,#fff 0,#fff 1px,transparent 0,transparent 50%)",
+            backgroundImage: "repeating-linear-gradient(45deg,#000 0,#000 1px,transparent 0,transparent 50%)",
             backgroundSize: "12px 12px",
           }}
         />
@@ -73,7 +73,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/#contact"
-              className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-9 py-4 rounded transition-colors cursor-pointer"
+              className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-9 py-4 rounded transition-colors cursor-pointer"
             >
               Contact Us
             </Link>
@@ -88,7 +88,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
       </section>
 
       {/* Intro text */}
-      <section className="py-20 border-b border-dark-edge" style={{ background: "#141210" }}>
+      <section className="py-20 border-b border-dark-edge" style={{ background: "#faf8f4" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="lg:grid lg:grid-cols-[1fr_340px] gap-16 items-start">
             <div>
@@ -108,7 +108,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
             <FadeUp delay={0.2}>
               <div
                 className="rounded-lg p-7 mt-8 lg:mt-0"
-                style={{ background: "#1c1814", border: "1px solid #3a3028", borderTop: "3px solid #2e6da4" }}
+                style={{ background: "#ffffff", border: "1px solid #e5dcce", borderTop: "3px solid #2a6296" }}
               >
                 <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-4">Why Trade Life Services</p>
                 <ul className="space-y-4">
@@ -141,11 +141,11 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
       </section>
 
       {/* Services grid */}
-      <section className="py-24 relative overflow-hidden" style={{ background: "#1a1510" }}>
+      <section className="py-24 relative overflow-hidden" style={{ background: "#ffffff" }}>
         <div
           className="absolute inset-0 opacity-[0.04]"
           style={{
-            backgroundImage: "radial-gradient(circle,#fff 1px,transparent 1px)",
+            backgroundImage: "radial-gradient(circle,#000 1px,transparent 1px)",
             backgroundSize: "28px 28px",
           }}
         />
@@ -165,17 +165,17 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
                   href={s.href}
                   className="relative rounded-lg overflow-hidden group hover:-translate-y-1 transition-all duration-200 block cursor-pointer"
                   style={{
-                    background: "#1c1814",
-                    borderTop: "1px solid #3a3028",
-                    borderRight: "1px solid #3a3028",
-                    borderBottom: "1px solid #3a3028",
-                    borderLeft: "3px solid #2e6da4",
+                    background: "#ffffff",
+                    borderTop: "1px solid #e5dcce",
+                    borderRight: "1px solid #e5dcce",
+                    borderBottom: "1px solid #e5dcce",
+                    borderLeft: "3px solid #2a6296",
                   }}
                 >
                   <div className="p-6">
                     <span
-                      className="absolute top-2 right-4 font-heading text-7xl leading-none text-white select-none pointer-events-none"
-                      style={{ opacity: 0.04 }}
+                      className="absolute top-2 right-4 font-heading text-7xl leading-none text-rust select-none pointer-events-none"
+                      style={{ opacity: 0.06 }}
                       aria-hidden
                     >
                       {String(i + 1).padStart(2, "0")}
@@ -195,7 +195,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
       <section
         className="py-24 relative overflow-hidden border-t border-rust/20 text-center"
         style={{
-          background: `radial-gradient(ellipse at 50% 0%, rgba(46,109,164,0.22) 0%, transparent 65%), #0a0806`,
+          background: `radial-gradient(ellipse at 50% 0%, rgba(42,98,150,0.10) 0%, transparent 65%), #f1ece3`,
         }}
       >
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 bg-rust/40" />
@@ -211,7 +211,7 @@ export default function ServiceAreaTemplate({ data }: { data: ServiceAreaData })
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/#contact"
-              className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer"
+              className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer"
             >
               Contact Us
             </Link>

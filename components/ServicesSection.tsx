@@ -78,13 +78,13 @@ export default function ServicesSection() {
   return (
     <section
       className="py-24 relative overflow-hidden"
-      style={{ background: "#141210" }}
+      style={{ background: "#faf8f4" }}
     >
       {/* Dot grid */}
       <div
         className="absolute inset-0 opacity-[0.045]"
         style={{
-          backgroundImage: "radial-gradient(circle,#fff 1px,transparent 1px)",
+          backgroundImage: "radial-gradient(circle,#000 1px,transparent 1px)",
           backgroundSize: "28px 28px",
         }}
       />
@@ -112,11 +112,11 @@ export default function ServicesSection() {
                 href={service.href}
                 className="relative rounded-lg overflow-hidden group hover:-translate-y-1 transition-all duration-200 block"
                 style={{
-                  background: "#1c1814",
-                  borderTop: "1px solid #3a3028",
-                  borderRight: "1px solid #3a3028",
-                  borderBottom: "1px solid #3a3028",
-                  borderLeft: "3px solid #2e6da4",
+                  background: "#ffffff",
+                  borderTop: "1px solid #e5dcce",
+                  borderRight: "1px solid #e5dcce",
+                  borderBottom: "1px solid #e5dcce",
+                  borderLeft: "3px solid #2a6296",
                 }}
               >
                 {/* Photo thumbnail */}
@@ -128,14 +128,14 @@ export default function ServicesSection() {
                     className="object-cover opacity-50 group-hover:opacity-60 transition-opacity duration-300"
                     sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#1c1814]" />
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#ffffff]" />
                 </div>
 
                 <div className="p-6 pt-4">
                   {/* Card number watermark */}
                   <span
-                    className="absolute top-2 right-4 font-heading text-7xl leading-none text-white select-none pointer-events-none"
-                    style={{ opacity: 0.04 }}
+                    className="absolute top-2 right-4 font-heading text-7xl leading-none text-rust select-none pointer-events-none"
+                    style={{ opacity: 0.06 }}
                     aria-hidden
                   >
                     {String(i + 1).padStart(2, "0")}

@@ -2,14 +2,14 @@
 @plugin "@tailwindcss/forms";
 
 @theme {
-  --color-rust: #2e6da4;
-  --color-warm: #d4943a;
-  --color-cream: #f5f0e8;
-  --color-dim: #a89880;
-  --color-dark: #141210;
-  --color-dark-card: #1e1a16;
-  --color-dark-alt: #231f1a;
-  --color-dark-edge: #3a3028;
+  --color-rust: #2a6296;
+  --color-warm: #b0741f;
+  --color-cream: #211c16;
+  --color-dim: #6b6157;
+  --color-dark: #faf8f4;
+  --color-dark-card: #ffffff;
+  --color-dark-alt: #f1ece3;
+  --color-dark-edge: #e5dcce;
 
   --font-heading: var(--font-bebas), sans-serif;
   --font-body: var(--font-inter), sans-serif;
@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #141210;
-  color: #f5f0e8;
+  background-color: #faf8f4;
+  color: #211c16;
   font-family: var(--font-body);
 }

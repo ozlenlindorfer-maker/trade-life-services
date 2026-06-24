@@ -22,9 +22,9 @@ export default function Hero() {
       className="relative min-h-screen flex items-center overflow-hidden"
       style={{
         background: `
-          radial-gradient(ellipse at 0% 65%, rgba(46,109,164,0.22) 0%, transparent 55%),
+          radial-gradient(ellipse at 0% 65%, rgba(42,98,150,0.10) 0%, transparent 55%),
           radial-gradient(ellipse at 85% 10%, rgba(212,148,58,0.08) 0%, transparent 45%),
-          linear-gradient(160deg, #060402 0%, #141210 55%, #1c1410 100%)
+          linear-gradient(160deg, #ffffff 0%, #faf8f4 55%, #f1ece3 100%)
         `,
       }}
     >
@@ -32,7 +32,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 opacity-[0.035]"
         style={{
-          backgroundImage: "repeating-linear-gradient(45deg,#fff 0,#fff 1px,transparent 0,transparent 50%)",
+          backgroundImage: "repeating-linear-gradient(45deg,#000 0,#000 1px,transparent 0,transparent 50%)",
           backgroundSize: "12px 12px",
         }}
       />
@@ -40,8 +40,8 @@ export default function Hero() {
       {/* Watermark */}
       <div className="absolute inset-0 flex items-center overflow-hidden pointer-events-none select-none" aria-hidden>
         <span
-          className="font-heading text-white whitespace-nowrap leading-none"
-          style={{ fontSize: "24vw", opacity: 0.018, letterSpacing: "0.03em" }}
+          className="font-heading text-rust whitespace-nowrap leading-none"
+          style={{ fontSize: "24vw", opacity: 0.05, letterSpacing: "0.03em" }}
         >
           TRADE LIFE
         </span>
@@ -141,10 +141,10 @@ export default function Hero() {
             <div
               className="rounded-lg overflow-hidden"
               style={{
-                background: "rgba(28,24,20,0.92)",
-                border: "1px solid #3a3028",
-                borderTop: "3px solid #2e6da4",
-                boxShadow: "0 24px 60px rgba(0,0,0,0.5), 0 0 0 1px rgba(46,109,164,0.08)",
+                background: "#ffffff",
+                border: "1px solid #e5dcce",
+                borderTop: "3px solid #2a6296",
+                boxShadow: "0 24px 60px rgba(0,0,0,0.12), 0 0 0 1px rgba(42,98,150,0.06)",
               }}
             >
               <div className="px-6 pt-6 pb-2">
@@ -164,7 +164,7 @@ export default function Hero() {
       {/* Angled cut into next section */}
       <div className="absolute bottom-0 left-0 right-0 overflow-hidden leading-none">
         <svg viewBox="0 0 1440 56" preserveAspectRatio="none" className="w-full h-14">
-          <polygon points="0,56 1440,0 1440,56" fill="#2e6da4" />
+          <polygon points="0,56 1440,0 1440,56" fill="#2a6296" />
         </svg>
       </div>
     </section>

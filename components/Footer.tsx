@@ -75,7 +75,7 @@ export default function Footer() {
               <p className="text-dim/50 text-[10px] mb-1.5">Serving Knoxville &amp; Knox County</p>
               <Link
                 href="/#contact"
-                className="inline-block bg-rust hover:bg-rust/80 text-cream text-xs font-bold px-5 py-2.5 rounded transition-colors cursor-pointer tracking-wide"
+                className="inline-block bg-rust hover:bg-rust/80 text-white text-xs font-bold px-5 py-2.5 rounded transition-colors cursor-pointer tracking-wide"
               >
                 Contact Us
               </Link>

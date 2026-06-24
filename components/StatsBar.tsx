@@ -58,13 +58,13 @@ export default function StatsBar() {
     <section
       ref={ref}
       className="py-14 relative overflow-hidden border-t border-b border-rust/25"
-      style={{ background: "#0a0806" }}
+      style={{ background: "#f1ece3" }}
     >
       <div
         className="absolute inset-0 opacity-[0.04]"
         style={{
           backgroundImage:
-            "repeating-linear-gradient(45deg,#fff 0,#fff 1px,transparent 0,transparent 50%)",
+            "repeating-linear-gradient(45deg,#000 0,#000 1px,transparent 0,transparent 50%)",
           backgroundSize: "10px 10px",
         }}
       />

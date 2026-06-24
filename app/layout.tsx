@@ -22,7 +22,7 @@ const ogImage = "https://images.unsplash.com/photo-1674649207083-281c2517ab49?w=
 
 
 export const viewport: Viewport = {
-  themeColor: "#2e6da4",
+  themeColor: "#2a6296",
   width: "device-width",
   initialScale: 1,
 };

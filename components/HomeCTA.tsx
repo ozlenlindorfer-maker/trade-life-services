@@ -7,8 +7,8 @@ export default function HomeCTA() {
       className="py-28 relative overflow-hidden"
       style={{
         background: `
-          radial-gradient(ellipse at 50% 0%, rgba(46,109,164,0.3) 0%, transparent 60%),
-          linear-gradient(180deg, #1a0c04 0%, #141210 60%, #0e0c0a 100%)
+          radial-gradient(ellipse at 50% 0%, rgba(42,98,150,0.12) 0%, transparent 60%),
+          linear-gradient(180deg, #ffffff 0%, #faf8f4 60%, #f1ece3 100%)
         `,
       }}
     >
@@ -16,7 +16,7 @@ export default function HomeCTA() {
       <div
         className="absolute inset-0 opacity-[0.03]"
         style={{
-          backgroundImage: "repeating-linear-gradient(45deg,#fff 0,#fff 1px,transparent 0,transparent 50%)",
+          backgroundImage: "repeating-linear-gradient(45deg,#000 0,#000 1px,transparent 0,transparent 50%)",
           backgroundSize: "12px 12px",
         }}
       />
@@ -50,7 +50,7 @@ export default function HomeCTA() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/#contact"
-              className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-cream font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer"
+              className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer"
             >
               Get in Touch
             </Link>

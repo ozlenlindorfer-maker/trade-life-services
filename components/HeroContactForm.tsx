@@ -122,7 +122,7 @@ export default function HeroContactForm() {
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="w-full bg-rust hover:bg-rust/80 disabled:opacity-60 disabled:cursor-not-allowed text-cream font-bold text-sm py-3.5 px-5 rounded transition-colors cursor-pointer tracking-wide"
+        className="w-full bg-rust hover:bg-rust/80 disabled:opacity-60 disabled:cursor-not-allowed text-white font-bold text-sm py-3.5 px-5 rounded transition-colors cursor-pointer tracking-wide"
       >
         {status === "submitting" ? "Sending…" : "Send Message →"}
       </button>
