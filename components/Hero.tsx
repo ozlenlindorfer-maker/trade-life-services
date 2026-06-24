@@ -149,7 +149,7 @@ export default function Hero() {
             >
               <div className="px-6 pt-6 pb-2">
                 <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-1">Get in Touch</p>
-                <p className="font-heading text-cream text-2xl tracking-wide leading-tight mb-1">Get in Touch</p>
+                <p className="font-heading text-cream text-2xl tracking-wide leading-tight mb-1">Request a Free Quote</p>
                 <p className="text-dim text-xs mb-5">Tell us what you need — we&apos;ll get back to you as soon as possible.</p>
               </div>
               <div className="px-6 pb-6">
