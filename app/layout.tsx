@@ -2,6 +2,7 @@ import type { Viewport } from "next";
 import type { Metadata } from "next";
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
+import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 
@@ -97,6 +98,7 @@ export default function RootLayout({
         <JsonLd />
       </head>
       <body className="min-h-screen flex flex-col bg-dark text-cream antialiased">
+        <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
