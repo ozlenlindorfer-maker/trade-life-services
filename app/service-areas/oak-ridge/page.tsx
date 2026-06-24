@@ -4,7 +4,7 @@ import ServiceAreaTemplate, { type ServiceAreaData } from "@/components/ServiceA
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://trade-life-services.netlify.app";
 
 export const metadata: Metadata = {
-  title: "Handyman Oak Ridge TN | Trade Life Services",
+  title: "Handyman Oak Ridge TN",
   description:
     "Need a handyman in Oak Ridge, TN? Trade Life Services handles repairs, plumbing, electrical, carpentry, and painting across Oak Ridge and Anderson County. Call (865) 247-1871.",
   keywords: ["handyman Oak Ridge TN", "handyman near me Oak Ridge", "home repair Oak Ridge Tennessee", "Anderson County handyman"],

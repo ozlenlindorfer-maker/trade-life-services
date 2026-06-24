@@ -4,7 +4,7 @@ import Link from "next/link";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tradelifeservices.com";
 
 export const metadata: Metadata = {
-  title: "Plumbing Repairs Knoxville TN | Trade Life Services",
+  title: "Plumbing Repairs Knoxville TN",
   description:
     "Plumbing repair in Knoxville, TN. Dripping faucets, running toilets, blocked drains, leaky pipes, and more. Trade Life Services — call (865) 247-1871.",
   keywords: ["plumbing repair Knoxville TN", "plumber Knoxville", "dripping faucet Knoxville", "blocked drain Knoxville", "leaky pipe Knox County"],

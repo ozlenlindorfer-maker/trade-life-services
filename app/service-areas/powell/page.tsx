@@ -4,7 +4,7 @@ import ServiceAreaTemplate, { type ServiceAreaData } from "@/components/ServiceA
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://trade-life-services.netlify.app";
 
 export const metadata: Metadata = {
-  title: "Handyman Powell TN | Trade Life Services",
+  title: "Handyman Powell TN",
   description:
     "Handyman services in Powell, TN — repairs, plumbing, electrical, carpentry, and painting. Trade Life Services covers Powell and north Knox County. Call (865) 247-1871.",
   keywords: ["handyman Powell TN", "handyman near me Powell", "home repair Powell Tennessee", "north Knox County handyman"],

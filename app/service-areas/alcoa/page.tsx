@@ -4,7 +4,7 @@ import ServiceAreaTemplate, { type ServiceAreaData } from "@/components/ServiceA
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://trade-life-services.netlify.app";
 
 export const metadata: Metadata = {
-  title: "Handyman Alcoa TN | Trade Life Services",
+  title: "Handyman Alcoa TN",
   description:
     "Handyman services in Alcoa, TN — repairs, plumbing, electrical, carpentry, and painting. Trade Life Services covers Alcoa and surrounding Blount County. Call (865) 247-1871.",
   keywords: ["handyman Alcoa TN", "handyman near me Alcoa", "home repair Alcoa Tennessee", "Alcoa handyman service"],

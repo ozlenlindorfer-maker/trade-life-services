@@ -4,7 +4,7 @@ import Link from "next/link";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tradelifeservices.com";
 
 export const metadata: Metadata = {
-  title: "Painting & Decorating Knoxville TN | Trade Life Services",
+  title: "Painting & Decorating Knoxville TN",
   description:
     "Interior and exterior painting in Knoxville, TN. Clean lines, smooth finishes, honest pricing. Trade Life Services — call (865) 247-1871.",
   keywords: ["painting contractor Knoxville TN", "interior painting Knoxville", "exterior painting Knoxville", "house painter Knoxville", "painting services Knox County"],

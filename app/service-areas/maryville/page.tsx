@@ -4,7 +4,7 @@ import ServiceAreaTemplate, { type ServiceAreaData } from "@/components/ServiceA
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://trade-life-services.netlify.app";
 
 export const metadata: Metadata = {
-  title: "Handyman Maryville TN | Trade Life Services",
+  title: "Handyman Maryville TN",
   description:
     "Looking for a handyman in Maryville, TN? Trade Life Services covers Maryville and Blount County — repairs, plumbing, electrical, carpentry, painting. Call (865) 247-1871.",
   keywords: ["handyman Maryville TN", "handyman near me Maryville", "home repair Maryville Tennessee", "Blount County handyman"],

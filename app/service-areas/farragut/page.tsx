@@ -4,7 +4,7 @@ import ServiceAreaTemplate, { type ServiceAreaData } from "@/components/ServiceA
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://trade-life-services.netlify.app";
 
 export const metadata: Metadata = {
-  title: "Handyman Farragut TN | Trade Life Services",
+  title: "Handyman Farragut TN",
   description:
     "Need a handyman in Farragut, TN? Trade Life Services — repairs, plumbing, electrical, carpentry, and painting. Serving Farragut and west Knoxville. Call (865) 247-1871.",
   keywords: ["handyman Farragut TN", "handyman near me Farragut", "home repair Farragut Tennessee", "Farragut handyman service"],

@@ -4,7 +4,7 @@ import ServiceAreaTemplate, { type ServiceAreaData } from "@/components/ServiceA
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://trade-life-services.netlify.app";
 
 export const metadata: Metadata = {
-  title: "Handyman Hardin Valley TN | Trade Life Services",
+  title: "Handyman Hardin Valley TN",
   description:
     "Handyman services in Hardin Valley, TN — repairs, plumbing, electrical, carpentry, painting. Trade Life Services serves Hardin Valley and northwest Knoxville. Call (865) 247-1871.",
   keywords: ["handyman Hardin Valley TN", "handyman near me Hardin Valley", "home repair Hardin Valley", "northwest Knoxville handyman"],

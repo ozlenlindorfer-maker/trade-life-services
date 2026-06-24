@@ -4,7 +4,7 @@ import Link from "next/link";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tradelifeservices.com";
 
 export const metadata: Metadata = {
-  title: "Electrical Work Knoxville TN | Trade Life Services",
+  title: "Electrical Work Knoxville TN",
   description:
     "Electrical handyman in Knoxville, TN. Outlets, switches, ceiling fans, light fixtures, and more. Safe, code-compliant work. Call Trade Life Services at (865) 247-1871.",
   keywords: ["electrical handyman Knoxville TN", "outlet repair Knoxville", "ceiling fan installation Knoxville", "light fixture Knoxville", "electrical work Knox County"],

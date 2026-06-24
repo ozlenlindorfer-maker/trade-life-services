@@ -4,7 +4,7 @@ import Link from "next/link";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tradelifeservices.com";
 
 export const metadata: Metadata = {
-  title: "Carpentry & Woodwork Knoxville TN | Trade Life Services",
+  title: "Carpentry & Woodwork Knoxville TN",
   description:
     "Carpentry and woodwork in Knoxville, TN. Shelving, doors, trim, decks, and custom woodwork. Built right, built to last. Call Trade Life Services at (865) 247-1871.",
   keywords: ["carpentry Knoxville TN", "woodwork Knoxville", "deck builder Knoxville", "shelving installation Knoxville", "trim carpentry Knox County"],
