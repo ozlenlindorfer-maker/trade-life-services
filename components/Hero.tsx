@@ -50,12 +50,6 @@ export default function Hero() {
       {/* Rust glow */}
       <div className="absolute -left-24 top-1/3 w-80 h-80 bg-rust rounded-full opacity-10 blur-3xl pointer-events-none" />
 
-      {/* Vertical accent */}
-      <div
-        className="absolute top-0 bottom-0 bg-rust opacity-70 hidden lg:block"
-        style={{ left: "7%", width: "2px" }}
-      />
-
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-24 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_440px] gap-10 xl:gap-16 items-center">
 
@@ -148,9 +142,9 @@ export default function Hero() {
               }}
             >
               <div className="px-6 pt-6 pb-2">
-                <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-1">Get in Touch</p>
-                <p className="font-heading text-cream text-2xl tracking-wide leading-tight mb-1">Request a Free Quote</p>
-                <p className="text-dim text-xs mb-5">Tell us what you need — we&apos;ll get back to you as soon as possible.</p>
+                <p className="text-rust text-[10px] font-bold tracking-[0.3em] uppercase mb-1">Contact</p>
+                <p className="font-heading text-cream text-2xl tracking-wide leading-tight mb-1">Get in Touch</p>
+                <p className="text-dim text-xs mb-5">Fill out the form and we&apos;ll reply right away.</p>
               </div>
               <div className="px-6 pb-6">
                 <HeroContactForm />
