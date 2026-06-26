@@ -1,4 +1,4 @@
-import Link from "next/link";
+import ContactLink from "./ContactLink";
 import FadeUp from "./FadeUp";
 
 export default function HomeCTA() {
@@ -48,12 +48,9 @@ export default function HomeCTA() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/#contact"
-              className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer"
-            >
+            <ContactLink className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer">
               Get in Touch
-            </Link>
+            </ContactLink>
             <a
               href="tel:+18652471871"
               className="inline-flex items-center justify-center bg-dark-card border-2 border-warm/70 hover:border-warm hover:bg-dark-alt text-cream font-bold text-base px-10 py-4 rounded transition-colors cursor-pointer"

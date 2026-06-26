@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactLink from "./ContactLink";
 
 export default function Nav() {
   return (
@@ -16,12 +17,9 @@ export default function Nav() {
         </Link>
 
         <nav>
-          <Link
-            href="/#contact"
-            className="bg-rust hover:bg-rust/80 text-white text-sm font-bold px-5 py-2 rounded transition-colors tracking-wide"
-          >
+          <ContactLink className="bg-rust hover:bg-rust/80 text-white text-sm font-bold px-5 py-2 rounded transition-colors tracking-wide">
             Contact
-          </Link>
+          </ContactLink>
         </nav>
       </div>
     </header>

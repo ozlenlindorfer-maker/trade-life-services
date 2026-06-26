@@ -1,4 +1,4 @@
-import Link from "next/link";
+import ContactLink from "./ContactLink";
 import FadeUp from "./FadeUp";
 
 const factors = [
@@ -99,12 +99,9 @@ export default function PricingNote() {
               and we&rsquo;ll talk it through with you before any work begins.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/#contact"
-                className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-8 py-3.5 rounded transition-colors"
-              >
+              <ContactLink className="inline-flex items-center justify-center bg-rust hover:bg-rust/80 text-white font-bold text-base px-8 py-3.5 rounded transition-colors">
                 Get a Quote
-              </Link>
+              </ContactLink>
               <a
                 href="tel:+18652471871"
                 className="inline-flex items-center justify-center border-2 border-warm/70 hover:border-warm text-cream font-bold text-base px-8 py-3.5 rounded transition-colors"
