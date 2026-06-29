@@ -3,7 +3,6 @@ import PricingNote from "@/components/PricingNote";
 import StatsBar from "@/components/StatsBar";
 import ServicesSection from "@/components/ServicesSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Testimonials from "@/components/Testimonials";
 import HomeCTA from "@/components/HomeCTA";
 
 export default function HomePage() {
@@ -14,7 +13,6 @@ export default function HomePage() {
       <StatsBar />
       <ServicesSection />
       <WhyChooseUs />
-      <Testimonials />
       <HomeCTA />
     </>
   );
