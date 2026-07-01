@@ -1,5 +1,6 @@
 import type { Viewport } from "next";
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
@@ -96,6 +97,19 @@ export default function RootLayout({
     >
       <head>
         <JsonLd />
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3ZPVD7CRK8"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-3ZPVD7CRK8');
+          `}
+        </Script>
       </head>
       <body className="min-h-screen flex flex-col bg-dark text-cream antialiased">
         <Nav />
